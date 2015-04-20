@@ -69,13 +69,9 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 			$message = $resp->error;
 		}
 	}
-
-
-		
 }
-
-
 ?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="fr"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="fr"> <![endif]-->
@@ -96,11 +92,18 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 	
 	<!-- CSS
     ================================================== -->
-	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/base.css">
-	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/grid.css">
+	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/base.css">-->
+	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/grid.css">-->
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/prettyPhoto.css">
-	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/condosvv.css?v=2.0">
-	
+	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/condosvv.css?v=2.0">-->
+
+  	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/normalize.css>-->
+	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/foundation.css">
+
+	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/app.css">
+
+    <script src="<? echo BASE_URL; ?>assets/javascripts/vendor/modernizr.js"></script>
+
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="<? echo BASE_URL; ?>assets/images/favicon.ico">
@@ -134,13 +137,11 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 	<!-- Header
 	================================================== -->
 	<div class="masthead">
-		<div class="container">
-			
-			<div class="twelve columns" id="header">
-				<div class="three columns alpha" id="logo"><a href="<? echo BASE_URL; ?>accueil" title="" rel="home">Condos VV</a></div>
-				
-				<div class="seven columns omega right" id="nav">
-					<ul>
+        <div id="header">
+		   <div class="row">
+				<div class="large-3 columns" id="logo"><a href="<? echo BASE_URL; ?>accueil" title="" rel="home">Condos VV</a></div>
+				<div class="large-9 columns" id="nav">
+					<ul class="styless">
 	                    <li><a href="<? echo BASE_URL; ?>plan-condos">Phase 1</a> |</li>
 						<li><a href="<? echo BASE_URL; ?>phase-2">Phase 2</a> |</li>
 						<li><a href="<? echo BASE_URL; ?>phase-3">Phase 3</a> |</li> 
@@ -153,7 +154,7 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 		</div>
 	</div>
 	
-	<?php 
+	<?php
 	switch($p){ 
 		case 'accueil' : 
 			$load_header = true;
@@ -229,6 +230,11 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.maphilight.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.metadata.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.tooltip.min.js"></script>
+
+    <script src="<? echo BASE_URL; ?>assets/javascripts/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
     
 
 </body>

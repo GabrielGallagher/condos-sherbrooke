@@ -1,0 +1,76 @@
+/*Base styles*/
+body {
+    background-color: #e1e1e1;
+}
+
+section {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/*Typography*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+    color: #9e0c0f;
+}
+
+.text-light {
+    font-weight: lighter;
+}
+
+.promotion p {
+    font-size: .75em;
+}
+
+/*Building Blocks*/
+.hero .row.intro {
+    background-image: url("../images/condovvcrop.png");
+    padding: 3em 1em;
+}
+
+.hero .no-space {
+    padding-top: 10px;
+}
+
+.hero h1, .hero h2 , .hero h3, .hero h4, .hero h5, .hero h6 {
+    color: #FFF;
+}
+
+.hero a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.hero .subheader {
+    font-weight: lighter;
+}
+
+/*Lists*/
+ul.styless {
+    list-style: none    ;
+}
+
+ul.indent {
+    padding-left: 2em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+ul.a {
+    color: inherit;
+}
+
+/*Buttons*/
+button, .button {
+    /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+/*Hero Unit*/
+.hero h5 {
+    margin-bottom: 0;
+    margin-top: 0;
+}

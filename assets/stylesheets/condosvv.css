@@ -19,7 +19,6 @@
 /* #Site Styles
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans Condensed', Arial, Helvetica;
 	color: #aa2318;
 	text-transform: uppercase;
 }
@@ -28,10 +27,8 @@ h1{
 }
 h6{
 	font-size:16px;
-	font-family:Arial, Helvetica, sans-serif;
 	color:#fff;
 	line-height:18px;
-	padding-bottom:10px;
 }
 span.title{
 	font-size:32px;
@@ -84,7 +81,6 @@ a:hover {
 #nav li {
 	float: left; 
 	margin-right: 4px;
-	font-family: 'Open Sans', Arial, Helvetica;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #ccc;
@@ -287,7 +283,6 @@ body {
 	background: rgba(0,0,0,0.8);
 	padding: 20px;
 	color: #fff;
-	font-family: "Open Sans Condensed";
 	font-weight: 300;
 	font-size: 22px;
 }
@@ -296,7 +291,6 @@ body {
 	background-color: #cd262c;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: "Open Sans Condensed";
 	font-weight: 300;
 	font-size: 22px;
 	padding: 12px 32px;

@@ -22,7 +22,7 @@
 			<?php echo recaptcha_get_html($publickey, $error); ?>
 		</div>
 		<div class="submit">
-			<input type="submit" value="Envoyer" />
+			<input type="submit" value="ENVOYER" class="button" />
 			<input type="hidden" name="action" value="send" />
 		</div>
 	</div>

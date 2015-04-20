@@ -6,7 +6,7 @@
 	</div>
 
 	<div class="row-fluid">
-	<div class="header-hero-lead">CONDOS 3 1/2, 4 1/2, 5 1/2, STUDIOS, LOFTS &amp; PENTHOUSES</div>
+	<h4 class="header-hero-lead">CONDOS 3 1/2, 4 1/2, 5 1/2, STUDIOS, LOFTS &amp; PENTHOUSES, STATIONNEMENT PRIV&Eacute; ET PAVILLON D'&Eacute;T&Eacute;</h4>
 	</div>
 	
 </div>

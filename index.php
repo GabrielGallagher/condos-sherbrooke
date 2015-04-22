@@ -95,7 +95,7 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/base.css">-->
 	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/grid.css">-->
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/prettyPhoto.css">
-	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/condosvv.css?v=2.0">-->
+	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/condosvv.css?v=2.0">
 
   	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/normalize.css>-->
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/foundation.css">
@@ -198,25 +198,24 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 	<!-- Footer
 	================================================== -->
 	<footer>
-		<div class="container">
-			<div class="twelve columns">
-				<div class="six columns alpha">
-					
-					<!-- AddThis Button BEGIN -->
-						<div class="addthis_toolbox addthis_default_style ">
-							<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-							<a class="addthis_button_tweet"></a>
-							<a class="addthis_button_pinterest_pinit"></a>
-							<a class="addthis_counter addthis_pill_style"></a>
-						</div>
-						<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-						<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5113b8386c8e0306"></script>
-					<!-- AddThis Button END -->
+		<div class="row">
+			<div class="large-8 columns">
+				<!-- AddThis Button BEGIN -->
+					<div class="addthis_toolbox addthis_default_style ">
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_button_tweet"></a>
+						<a class="addthis_button_pinterest_pinit"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+					</div>
+					<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5113b8386c8e0306"></script>
+				<!-- AddThis Button END -->
 				
-				</div>
-				<div class="three columns omega right" id="standish">
-					Accr&eacute;dit&eacute; par <a href="http://www.condossherbrooke.ca/" rel="external">Condos Sherbrooke</a>     <a href="http://www.standish.ca/" rel="external">Conception Web</a> <a href="http://www.standish.ca/" rel="external">Standish Communications</a>.
-				</div>
+			</div>
+			<div class="large-4 columns" id="standish">
+				Accr&eacute;dit&eacute; par <a href="http://www.condossherbrooke.ca/" rel="external">Condos Sherbrooke</a>
+				<br/>
+				<a href="http://www.standish.ca/" rel="external">Conception Web</a> <a href="http://www.standish.ca/" rel="external">Standish Communications</a>.
 			</div>
 		</div>
 	</footer>

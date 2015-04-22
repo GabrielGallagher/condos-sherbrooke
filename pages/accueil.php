@@ -13,7 +13,7 @@
             <p><strong>Vous cherchez un condo raffiné, un design personnalisé, une vue exceptionnelle. Vous avez trouvé la bonne adresse!</strong></p>
         </div>
         <div class="large-3 columns">
-            <a href="gallerie" class="button">VOIR LES PHOTO &raquo;</a>
+            <a href="galerie" class="button">VOIR LES PHOTO &raquo;</a>
         </div>
     </div>
 </section>
@@ -54,7 +54,7 @@
                 <li><a href="1101">Suite 1101 - Condo phase 1- &eacute;tage 1</a></li>
                 <li><a href="1204">Suite 1204 - Condo phase 1- &eacute;tage 2</a></li>
                 <li><a href="1401">Suite 1401 - Condo phase 1- &eacute;tage 4</a></li>
-                <li><a href="1103">Suite 1103 - Condo phase 1- &eacute;tage 4</a></li>
+                <li><a href="1403">Suite 1403 - Condo phase 1- &eacute;tage 4</a></li>
             </ul>
             <h3>EN PR&Eacute;VENTE</h3>
             <ul class="styless underline">

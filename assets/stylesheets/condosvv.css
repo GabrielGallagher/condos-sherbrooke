@@ -208,31 +208,36 @@ body {
 ================================================== */
 
 #plan{
-	width:910px;
-	padding:10px;
+	/*width:910px;*/
+	/*padding:10px;*/
 	border: 1px solid #d9d9d9;
-	height:28px;
-	line-height:28px;
+	/*height:28px;*/
+	/*line-height:28px;*/
 	background-color:#f1f1f1;
 }
 #plan h3{
 	font-size: 28px;
 }
-#plan-vendu{
-	width:600px;
-	float:left;	
-}
-#plan-etages{
-	width:200px;
-	float:right;
-	text-align:right;
-}
+/*#plan-vendu{*/
+	/*width:600px;*/
+	/*float:left;	*/
+/*}*/
+/*#plan-etages{*/
+	/*width:200px;*/
+	/*float:right;*/
+	/*text-align:right;*/
+/*}*/
 #plan-bottom{
-	width:930px;
+	/*width:930px;*/
 	min-height:545px;
 	border-right: 1px solid #d9d9d9;
 	border-left: 1px solid #d9d9d9;
 	border-bottom: 1px solid #d9d9d9;
+	margin-bottom: 1.7em;
+}
+
+#plan-bottom img {
+	width: 100%;
 }
 .left{
 	float:left;

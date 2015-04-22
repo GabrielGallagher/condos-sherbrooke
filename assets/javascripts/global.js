@@ -75,7 +75,7 @@ $(document).ready(function() {
 			if (uniteInfo[4] == 1){
 				return $("<div class='tooltipPlan'>" + uniteInfo[0] + "</div>");
 			}else if(uniteInfo[1] == "nonDispo"){
-				return $("<div class='tooltipPlan' style='background:#f8e517;color:#000;'>Bientôt disponible</div>");
+				return $("<div class='tooltipPlan' style='background:#f8e517;color:#000;'>Bientï¿½t disponible</div>");
 			}
 
 			else{

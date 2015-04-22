@@ -1,13 +1,8 @@
-
-	<div class="container">
-		
+	<div class="row">
 		<div id="gallerie-page">
-		
 			<h1>Notre galerie</h1>
-			
 			<!-- Fourth row -->
 			<div class="row">
-
 				<a href="<? echo BASE_URL; ?>assets/images/galerie/b-aaa.jpg" rel="prettyPhoto[header]">
 					<figure><img src="<? echo BASE_URL; ?>assets/images/galerie/aaa.jpg" alt="Les Condos VV" />
 						<figcaption></figcaption>

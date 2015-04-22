@@ -23,24 +23,20 @@
         <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 text-center columns no-space">
-                    <h1><strong>Vous l'avez longtemps cherch&eacute;, voici la plus belle vu en ville</strong></h1>
+                    <h1><strong>Avril 2015</strong></h1>
                 </div>
                 <div class="large-12 text-center columns no-space">
-                    <h2 class="subheader">En avril, profitez de
-                        rebais-constructions pour
-                        les premier acheteurs sur nos unit&eacute;s restantes!</h2>
+                    <h2 class="subheader">Promotion spéciale sur condos en inventaire libre
+                                          immédiatement</h2>
                 </div>
                 <div class="large-10 columns text-center large-offset-1">
                     <hr/>
                 </div>
-                <div class="large-12 text-center columns no-space"><h4>Vivez de la meilleure adresse &agrave;
-                    Sherbrooke,
-                    ofrez-vous un
-                    condo, studio, loft ou penthouse d'exception: vivez l'exp&eacute;rience Vu e Vertige</h4></div>
-                <div class="large-12 text-center columns no-space"><h3 class="text-light">Livraison 2015</h3></div>
+                <div class="large-12 text-center columns no-space"><h4>De plus, offrez -vous le meilleur des condos tout équipé avec notre
+                                                                       promotion LUXE phase 2  en construction
+                                                                       actuellement</h4></div>
                 <div class="large-4 large-offset-8 columns">
-                    <h5>POUR INFORMATION, COMMUNIQUEZ AVEC</h5>
-                    <h3><small>M. <strong>GILLES POULIN </small><a href="tel:+18195720880">(819) 572-0880</a></strong></h3>
+                    <h3><small>Prenez rendez-vous </small><a href="tel:+18195720880">(819) 572-0880</a></strong></h3>
                 </div>
             </div>
         </div>

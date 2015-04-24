@@ -123,7 +123,8 @@ window.onload = function (e) {
 
     $('img.mapster').mapster({
         fillColor: '8c201b',
-        fillOpacity: .75
+        fillOpacity: .75,
+		clickNavigate: true
     });
 
 // Resize the map to fit within the boundaries provided

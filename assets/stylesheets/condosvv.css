@@ -14,7 +14,8 @@
 	##Infield Labels
 	#Footer
 	#Media Queries
-	#Font-Face */
+	#Font-Face
+	#Capcha */
 
 /* #Site Styles
 ================================================== */
@@ -50,10 +51,6 @@ span.w{
 }
 .gris h3{
 	color:#333;
-}
-
-a:hover {
-	color: #aa2318;
 }
 
 /* #Header
@@ -396,3 +393,9 @@ footer {
 	    font-weight: normal;
 	    font-style: normal; }
 */
+
+/* #Capcha
+================================================== */
+.recaptchatable #recaptcha_response_field {
+	height: auto;
+}

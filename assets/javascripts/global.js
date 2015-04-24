@@ -22,31 +22,31 @@ $(document).ready(function() {
   	$("area[rel^='prettyPhoto']").prettyPhoto();
 	
 	// map hilight defaults
-	$.fn.maphilight.defaults = {
-		fill: true,
-		fillColor: '8c201b',
-		fillOpacity: .75,
-		stroke: false,
-		strokeColor: '8c201b',
-		strokeOpacity: 1,
-		strokeWidth: 1,
-		fade: true,
-		alwaysOn: false,
-		neverOn: false,
-		groupBy: false
-	}
-	
-	// init map hilight
-	$('.etages').maphilight();
-	
-	// custom map
-	$('.reserve').maphilight({
-		fillColor: '8c201b'
-	});
-	
-	$('area.vendu').maphilight({
-		alwaysOn : true
-	});
+	//$.fn.maphilight.defaults = {
+	//	fill: true,
+	//	fillColor: '8c201b',
+	//	fillOpacity: .75,
+	//	stroke: false,
+	//	strokeColor: '8c201b',
+	//	strokeOpacity: 1,
+	//	strokeWidth: 1,
+	//	fade: true,
+	//	alwaysOn: false,
+	//	neverOn: false,
+	//	groupBy: false
+	//}
+	//
+	//// init map hilight
+	//$('.etages').maphilight();
+	//
+	//// custom map
+	//$('.reserve').maphilight({
+	//	fillColor: '8c201b'
+	//});
+	//
+	//$('area.vendu').maphilight({
+	//	alwaysOn : true
+	//});
 
 	// links to map
 /*	$('#header ul a').mouseover(function(e) {
@@ -113,4 +113,57 @@ $(document).ready(function() {
 		
 });
 
+/* Image Mapster plugin
+ ================================================== */
+window.onload = function (e) {
+    var resizeTime = 100;     // total duration of the resize effect, 0 is instant
+    var resizeDelay = 100;    // time to wait before checking the window size again
+                              // the shorter the time, the more reactive it will be.
+                              // short or 0 times could cause problems with old browsers.
 
+    $('img.mapster').mapster({
+        fillColor: '8c201b',
+        fillOpacity: .75
+    });
+
+// Resize the map to fit within the boundaries provided
+    function resize(maxWidth, maxHeight) {
+        var image = $('img.mapster'),
+            imgWidth = image.width(),
+            imgHeight = image.height(),
+            newWidth = 0,
+            newHeight = 0;
+
+        if (imgWidth / maxWidth > imgHeight / maxHeight) {
+            newWidth = maxWidth;
+        } else {
+            newHeight = maxHeight;
+        }
+        image.mapster('resize', newWidth, newHeight, resizeTime);
+    }
+
+// Track window resizing events, but only actually call the map resize when the
+// window isn't being resized any more
+    function onWindowResize() {
+
+        var curWidth = $(window).width(),
+            curHeight = $(window).height(),
+            checking = false;
+        if (checking) {
+            return;
+        }
+        checking = true;
+        window.setTimeout(function () {
+            var newWidth = $(window).width(),
+                newHeight = $(window).height();
+            if (newWidth === curWidth &&
+                newHeight === curHeight) {
+                resize(newWidth, newHeight);
+            }
+            checking = false;
+        }, resizeDelay);
+    }
+
+    $(window).bind('resize', onWindowResize);
+
+};

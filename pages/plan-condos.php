@@ -15,7 +15,7 @@
     </div>
     <div class="row">
         <div id="plan-bottom">
-            <img src="../assets/images/plan/immeuble.jpg" alt="Condos VV" width="930" height="547" usemap="#etages" class="etages" border="0" />
+            <img src="../assets/images/plan/immeuble.jpg" alt="Condos VV" width="930" height="547" usemap="#etages" class="mapster" border="0" style="width: 100%; height: auto; width: auto"/>
             <map name="etages" id="etages">
               <area id="Étage-1" shape="poly" coords="727,416,698,414,682,411,589,408,546,407,495,407,415,408,91,419,97,363,220,349,375,325,496,320,699,337,712,347,763,351,765,416" href="etage-1" />
               <area id="Étage-2" shape="poly" coords="704,334,701,328,630,315,575,304,480,304,440,308,356,322,204,346,143,343,104,342,98,341,99,297,180,278,223,277,376,236,466,232,502,227,709,259,710,274,759,280,761,336" href="etage-2" />

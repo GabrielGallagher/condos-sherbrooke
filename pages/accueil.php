@@ -78,7 +78,7 @@
         <div class="large-12 columns">
             <img src="http://www.condosvv.com/assets/images/plan/plan-implentation.jpg"
                                        alt="Condos VV"
-                                       width="935" height="581" usemap="#etages" class="etages" border="0"/>
+                                       width="935" height="581" usemap="#etages" class="mapster" border="0" style="width: 100%; height: auto; width: auto"/>
                 <map name="etages" id="etages">
                     <area id="Phase 1" shape="poly" coords="215,224,214,367,254,426,408,426,410,213,215,213"
                           href="plan-condos"/>

@@ -226,7 +226,6 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 	<script src="<? echo BASE_URL; ?>assets/javascripts/jquery.prettyPhoto.js"></script>
 	<script src="<? echo BASE_URL; ?>assets/javascripts/global.js"></script>
     
-    <!--<script src="<? //echo BASE_URL; ?>assets/javascripts/jquery.maphilight.js"></script>-->
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.imagemapster.min.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.metadata.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.tooltip.min.js"></script>

@@ -5,7 +5,7 @@
 			<div class="row">
 				<div class="large-12 columns">
 					<div id="plan" class="row">
-			  			<div class="large-3 offset-9 columns text-right">
+			  			<div class="large-3 large-offset-9 columns text-right">
 			  			    <h3>etage - <a class="stage" href="phase2-etage-1">1</a> <a class="stage" href="phase2-etage-2">2</a> <a class="stage" href="phase2-etage-3">3</a> <a class="stage" href="phase2-etage-4">4</a></h3>
 			  			</div>
             		</div>

@@ -1,26 +1,28 @@
-	<div class="container">
-		
-		<div class="twelve columns">
-		
-			<h1>Étage 2 - Cliquez sur une unité</h1>
-			<div id="plan">
-           	  <div id="plan-vendu"><h3 class="left">vendu</h3> <img class="left" style="padding:7px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/vendu.jpg" alt="Les Condos VV" /> <h3 class="left">disponible</h3> <img class="left" style="padding:7px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/disponible.jpg" alt="Les Condos VV" /><h3 class="left">Réservé, en approbation</h3> <img class="left" style="padding:7px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/reserver.jpg" alt="Les Condos VV" /></div>
-                <div id="plan-etages"><h3 class="left">etage - <a class="stage" href="etage-1">1</a> <a class="stage" href="etage-2">2</a> <a class="stage" href="etage-3">3</a> <a class="stage" href="etage-4">4</a></h3></div>
+<div class="row">
+    <div class="large-12 columns">
+        <h1>Étage 2 - Cliquez sur une unité</h1>
+        <div id="plan" class="row">
+            <div class="large-9 columns text-left">
+                <h3 class="left">vendu</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/vendu.jpg" alt="Les Condos VV" />
+                <h3 class="left">disponible</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/disponible.jpg" alt="Les Condos VV" />
+                <h3 class="left">Réservé, en approbation</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/reserver.jpg" alt="Les Condos VV" />
             </div>
-            
-            <div id="plan-bottom"><img src="../assets/images/plan/etage-2.jpg" alt="Etage 1" width="930" height="665" usemap="#etages" class="etages" border="0" />
-              <map name="etages" id="etages">
-                <area id="VENDU - Loft #205" shape="poly" coords="441,156,441,40,351,40,351,56,265,56,265,176,353,176,353,156,441,156,515,156,515,100,441,100" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-105.jpg" />
-                <area id="Studio #1204" shape="poly" coords="250,184,249,273,441,273,441,195,408,195,408,164,361,165,361,184,249,184" rel="" href="1204" />
-                <area id="VENDU - Condo #203" shape="poly" coords="291,325,291,495,339,543,339,556,416,556,415,430,452,430,452,325,291,325" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-103.jpg" />
-                <area id="VENDU - Condo #202" shape="poly" coords="422,556,516,556,516,514,627,514,682,460,682,407,602,407,602,371,519,371,520,383,483,384,483,367,460,367,460,438,423,438,422,556" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-102.jpg" />
-                <area id="VENDU - Condo #201" shape="poly" coords="520,225,519,254,470,255,470,273,521,274,521,324,519,324,520,364,610,364,609,402,698,402,698,335,682,335,682,224,519,224" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-101.jpg" />
-              </map>
+            <div class="large-3 columns text-right">
+                <h3 class="left">etage - <a class="stage" href="etage-1">1</a> <a class="stage" href="etage-2">2</a> <a class="stage" href="etage-3">3</a> <a class="stage" href="etage-4">4</a></h3>
             </div>
-		
-
-			
+        </div>
+        <div class="row">
+            <div id="plan-bottom">
+                <img src="../assets/images/plan/etage-2.jpg" alt="Etage 1" width="930" height="665" usemap="#etages" class="mapster" border="0" />
+                <map name="etages" id="etages">
+                  <area id="VENDU - Loft #205" shape="poly" coords="441,156,441,40,351,40,351,56,265,56,265,176,353,176,353,156,441,156,515,156,515,100,441,100" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-105.jpg" />
+                  <area id="Studio #1204" shape="poly" coords="250,184,249,273,441,273,441,195,408,195,408,164,361,165,361,184,249,184" rel="" href="1204" />
+                  <area id="VENDU - Condo #203" shape="poly" coords="291,325,291,495,339,543,339,556,416,556,415,430,452,430,452,325,291,325" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-103.jpg" />
+                  <area id="VENDU - Condo #202" shape="poly" coords="422,556,516,556,516,514,627,514,682,460,682,407,602,407,602,371,519,371,520,383,483,384,483,367,460,367,460,438,423,438,422,556" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-102.jpg" />
+                  <area id="VENDU - Condo #201" shape="poly" coords="520,225,519,254,470,255,470,273,521,274,521,324,519,324,520,364,610,364,609,402,698,402,698,335,682,335,682,224,519,224" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-101.jpg" />
+                </map>
+            </div>
 		</div>
-	
-	</div>
+    </div>
+</div>
 	

@@ -9,8 +9,7 @@
 
 $(document).ready(function () {
 
-    // Resize our gallery on document ready
-    resizeScreen();
+    $("area[rel^='prettyPhoto']").prettyPhoto();
 
     /* Gallery
      ================================================== */
@@ -21,53 +20,9 @@ $(document).ready(function () {
         theme: 'light_rounded'
     });
 
-    /* Map Highlight
+    /* Image Map Tooltip
      ================================================== */
-    $("area[rel^='prettyPhoto']").prettyPhoto();
 
-    // map hilight defaults
-    //$.fn.maphilight.defaults = {
-    //	fill: true,
-    //	fillColor: '8c201b',
-    //	fillOpacity: .75,
-    //	stroke: false,
-    //	strokeColor: '8c201b',
-    //	strokeOpacity: 1,
-    //	strokeWidth: 1,
-    //	fade: true,
-    //	alwaysOn: false,
-    //	neverOn: false,
-    //	groupBy: false
-    //}
-    //
-    //// init map hilight
-    //$('.etages').maphilight();
-    //
-    //// custom map
-    //$('.reserve').maphilight({
-    //	fillColor: '8c201b'
-    //});
-    //
-    //$('area.vendu').maphilight({
-    //	alwaysOn : true
-    //});
-
-    // links to map
-    /*	$('#header ul a').mouseover(function(e) {
-     var etageId = ($(this).attr('id')).substr(0,7);
-     //alert(etageId);
-     $('#' + etageId).mouseover();
-     })
-
-     .mouseout(function(e) {
-     var etageId = ($(this).attr('id')).substr(0,7);
-     $('#' + etageId).mouseout();
-     })
-
-     .click(function(e) {
-     e.preventDefault();
-     });
-     */
 
     // Affiche le plan en tooltip
     $("map *").tooltip({
@@ -99,22 +54,25 @@ $(document).ready(function () {
 
     /* Full screen gallery
      ================================================== */
-    $(window).resize(function () {
-        resizeScreen();
-    });
+    //First time resizing
+    //resizeScreen();
 
-    function resizeScreen() {
+    //$(window).resize(function () {
+    //    resizeScreen();
+    //});
 
-        var maxSize = $(".fullwidth").width();
-        var screenWidth = $(window).width();
-
-        if (maxSize > screenWidth) {
-            var newPos = Math.floor((maxSize - screenWidth) / 2);
-            $(".fullwidth").css({ 'margin-left': -newPos + 'px' });
-        } else {
-            $(".fullwidth").css({ 'margin-left': '0' });
-        }
-    }
+    //function resizeScreen() {
+    //
+    //    var maxSize = $(".fullwidth").width();
+    //    var screenWidth = $(window).width();
+    //
+    //    if (maxSize > screenWidth) {
+    //        var newPos = Math.floor((maxSize - screenWidth) / 2);
+    //        $(".fullwidth").css({ 'margin-left': -newPos + 'px' });
+    //    } else {
+    //        $(".fullwidth").css({ 'margin-left': '0' });
+    //    }
+    //}
 
 });
 

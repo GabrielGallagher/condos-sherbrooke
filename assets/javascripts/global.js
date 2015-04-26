@@ -94,6 +94,8 @@
                 if($(this).attr('rel') === "") {
                     return true;
                 }
+
+                return false;
             }
         });
 

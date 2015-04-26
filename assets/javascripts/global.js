@@ -89,7 +89,12 @@
         $('img.mapster').mapster({
             fillColor: '8c201b',
             fillOpacity: .75,
-            clickNavigate: true
+            onClick: function(data) {
+                data.e.preventDefault();
+                if($(this).attr('rel') === "") {
+                    return true;
+                }
+            }
         });
 
     //  Resizes the image map to fit within the boundaries provided

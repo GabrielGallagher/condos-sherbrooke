@@ -91,7 +91,7 @@
             fillOpacity: .75,
             onClick: function(data) {
                 data.e.preventDefault();
-                if($(this).attr('rel') === "") {
+                if(typeof $(this).attr('rel') === 'undefined' || $(this).attr('rel') === "") {
                     return true;
                 }
 

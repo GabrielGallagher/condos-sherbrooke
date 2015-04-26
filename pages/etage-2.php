@@ -16,7 +16,7 @@
                 <img src="../assets/images/plan/etage-2.jpg" alt="Etage 1" width="930" height="665" usemap="#etages" class="mapster" border="0" />
                 <map name="etages" id="etages">
                   <area id="VENDU - Loft #205" shape="poly" coords="441,156,441,40,351,40,351,56,265,56,265,176,353,176,353,156,441,156,515,156,515,100,441,100" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-105.jpg" />
-                  <area id="Studio #1204" shape="poly" coords="250,184,249,273,441,273,441,195,408,195,408,164,361,165,361,184,249,184" rel="" href="1204" />
+                  <area id="Studio #1204" shape="poly" coords="250,184,249,273,441,273,441,195,408,195,408,164,361,165,361,184,249,184" href="1204" />
                   <area id="VENDU - Condo #203" shape="poly" coords="291,325,291,495,339,543,339,556,416,556,415,430,452,430,452,325,291,325" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-103.jpg" />
                   <area id="VENDU - Condo #202" shape="poly" coords="422,556,516,556,516,514,627,514,682,460,682,407,602,407,602,371,519,371,520,383,483,384,483,367,460,367,460,438,423,438,422,556" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-102.jpg" />
                   <area id="VENDU - Condo #201" shape="poly" coords="520,225,519,254,470,255,470,273,521,274,521,324,519,324,520,364,610,364,609,402,698,402,698,335,682,335,682,224,519,224" rel="prettyPhoto[image_map]" href="../assets/images/plan/etage2-101.jpg" />

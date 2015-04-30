@@ -95,6 +95,7 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/base.css">-->
 	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/grid.css">-->
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/prettyPhoto.css">
+	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/colorbox.css">
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/condosvv.css?v=2.0">
 
   	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/normalize.css>-->
@@ -229,7 +230,7 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.imagemapster.min.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.metadata.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.tooltip.min.js"></script>
-
+    <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.photoset-grid.min.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/foundation.min.js"></script>
     <script>
         $(document).foundation();

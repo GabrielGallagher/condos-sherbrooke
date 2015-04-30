@@ -14,11 +14,20 @@
         /* Gallery
          ================================================== */
 
-        $("a[rel^='prettyPhoto']").prettyPhoto({
-            animation_speed: 'fast',
-            slideshow: 10000,
-            hideflash: true,
-            theme: 'light_rounded'
+        $('.photoset-grid').photosetGrid({
+            gutter: '2px',
+            highresLinks: true,
+            rel: 'prettyPhoto',
+            onComplete: function() {
+                $('.photoset-grid').attr('style', '');
+
+                $("a[rel^='prettyPhoto']").prettyPhoto({
+                    animation_speed: 'fast',
+                    slideshow: 10000,
+                    hideflash: true,
+                    theme: 'light_rounded'
+                });
+            }
         });
 
         /* Image Map Tooltip

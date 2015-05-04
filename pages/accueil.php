@@ -63,12 +63,10 @@
         </div>
         <div class="large-6 columns">
             <div class="flex-video widescreen">
-                <iframe src="//fast.wistia.net/embed/iframe/aeuhu16fdw" allowtransparency="true" frameborder="0"
-                        scrolling="no"
-                        class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen
-                        webkitallowfullscreen
-                        oallowfullscreen msallowfullscreen width="475" height="267"></iframe>
-            </div>
+                <iframe src="//fast.wistia.net/embed/iframe/mlzeqiglb8" allowtransparency="true" frameborder="0"
+                        scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen
+                        webkitallowfullscreen oallowfullscreen msallowfullscreen width="475" height="267"></iframe>
+                <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
         </div>
     </div>
 </section>

@@ -5,7 +5,6 @@
             <div class="large-9 columns text-left">
                 <h3 class="left">vendu</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/vendu.jpg" alt="Les Condos VV" />
                 <h3 class="left">disponible</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/disponible.jpg" alt="Les Condos VV" />
-                <h3 class="left">Réservé, en approbation</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/reserver.jpg" alt="Les Condos VV" />
             </div>
             <div class="large-3 columns text-right">
                 <h3 class="left">etage - <a class="stage" href="etage-1">1</a> <a class="stage" href="etage-2">2</a> <a class="stage" href="etage-3">3</a> <a class="stage" href="etage-4">4</a></h3>

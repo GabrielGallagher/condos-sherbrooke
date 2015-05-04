@@ -5,7 +5,6 @@
             <div class="large-9 columns text-left">
                 <h3 class="left">vendu</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/vendu.jpg" alt="Les Condos VV" />
                 <h3 class="left">disponible</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/disponible.jpg" alt="Les Condos VV" />
-                <h3 class="left">Réservé, en approbation</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/reserver.jpg" alt="Les Condos VV" />
             </div>
             <div class="large-3 columns text-right">
                 <h3 class="left">etage - <a class="stage" href="etage-1">1</a> <a class="stage" href="etage-2">2</a> <a class="stage" href="etage-3">3</a> <a class="stage" href="etage-4">4</a></h3>
@@ -22,6 +21,10 @@
                     <area id="Condo #1101" shape="poly" coords="520,224,519,253,470,254,470,272,521,273,521,323,519,323,520,365,609,364,609,402,698,402,698,334,682,334,682,223,519,223" href="1101" />
                 </map>
             </div>
+        </div>
+        <div class="row">
+            <h2>Profiter de la Saison Estival gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;</h2>
+            <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="pavillon d'&eacute;t&eacute;"/>
         </div>
     </div>
 </div>

@@ -1,6 +1,6 @@
 	<div class="row">
 		<div class="large-12 columns">
-			<h1>Phase 2, prévente débutée </h1>
+			<h1>Phase 2, pr&eacute;sentement en construction </h1>
 			<p>Soyez parmi les 1ers acheteurs à obtenir le plus grand choix aux meilleurs prix. <strong>819 572-0880</strong></p>
 			<div class="row">
 				<div class="large-12 columns">
@@ -22,10 +22,10 @@
                     </div>
 				</div>
 			</div>
-			<h2>CONFORT, LUXE, SÉCURITÉ ET PRESTIGE</h2>
 		</div>
     </div>
     <div class="row">
+        <h2>CONFORT, LUXE, SÉCURITÉ ET PRESTIGE</h2>
 		<div class="large-6 columns">
 		<ul class="circle">
 				<li>Ascenseur </li>
@@ -40,6 +40,7 @@
 				<li>Standing unique</li>
 				<li>Système d’alarme incendie et gicleurs</li>
 				<li>Et de nombreux autres avantages...</li>
+				<li>Pavillon d'&eacute;t&eacute; et stationnement priv&eacute;e</li>
 			</ul>
 		</div>
 	</div>

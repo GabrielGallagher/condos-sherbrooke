@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             <div id="plan-bottom">
-                <img src="../assets/images/plan/phase-2/etage-4.jpg" alt="Etage 1" width="930" height="665" usemap="#etages" class="mapster" border="0" style="width: 100%; height: auto; width: auto" />
+                <img src="../assets/images/plan/phase-2/etage-4.jpg" alt="Etage 4" width="930" height="665" usemap="#etages" class="mapster" border="0" style="width: 100%; height: auto; width: auto" />
                 <map name="etages" id="etages">
                   <area shape="poly" coords="673,63,592,61,592,47,504,47,504,105,433,105,433,181,451,182,451,158,586,158,586,178,674,177,673,63" href="2404" />
                   <area shape="poly" coords="673,185,579,185,579,165,531,165,531,195,505,195,504,271,629,271,629,314,652,314,673,294,673,185" href="2403" />

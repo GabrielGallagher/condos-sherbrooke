@@ -23,7 +23,7 @@
         <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 text-center columns no-space">
-                    <h1><strong>Avril 2015</strong></h1>
+                    <h1><strong>Mai 2015</strong></h1>
                 </div>
                 <div class="large-12 text-center columns no-space">
                     <h2 class="subheader">Promotion spéciale sur condos en inventaire libre
@@ -32,9 +32,9 @@
                 <div class="large-10 columns text-center large-offset-1">
                     <hr/>
                 </div>
-                <div class="large-12 text-center columns no-space"><h4>De plus, offrez -vous le meilleur des condos tout équipé avec notre
-                                                                       promotion LUXE phase 2  en construction
-                                                                       actuellement</h4></div>
+                <div class="large-12 text-center columns no-space">
+                    <h4>Phase 1: Liquidation démonstrateur, offrez vous le meilleur au meilleur prix! Meilleure offre acceptée.</h4>
+                    <h4>Phase 2: Profitez de notre liste de prix pré-construction avant le 25 mai 2015.</h4></div>
                 <div class="large-4 large-offset-8 columns">
                     <h3><small>Prenez rendez-vous </small><a href="tel:+18195720880">(819) 572-0880</a></strong></h3>
                 </div>

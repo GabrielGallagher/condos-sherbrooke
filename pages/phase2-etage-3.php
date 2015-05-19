@@ -8,12 +8,14 @@
         </div>
         <div class="row">
             <div id="plan-bottom">
+                <!--Image map for the new floor plan-->
+                <!--Coordinates were defined counter-clockwise-->
                 <img src="../assets/images/plan/phase-2/etage-3.jpg" alt="Etage 3" width="930" height="665" usemap="#etages" class="mapster" border="0" style="width: 100%; height: auto; width: auto" />
                 <map name="etages" id="etages">
-                  <area shape="poly" coords="672,72,592,71,592,57,506,57,506,114,436,115,435,168,587,168,587,187,672,188,673,72" href="2304" />
-                  <area id="VENDU" shape="poly" coords="673,193,580,193,581,173,533,175,534,203,507,204,507,278,629,279,629,322,652,322,672,299,673,193" href="2303" />
-                  <area shape="poly" coords="433,230,281,231,281,335,266,334,266,398,270,397,270,500,338,501,339,542,429,541,433,229" href="2301" />
-                  <area id="VENDU" shape="poly" coords="437,542,648,542,647,327,503,327,466,364,466,372,437,373,436,542" href="2302" />
+                    <area alt="2301" href="2301" class="disponible" data-tooltip="2301" data-status="2301" shape="poly" coords="388,224,388,330,373,330,373,393,378,393,379,499,439,500,440,393,457,393,457,357,546,356,545,324,544,324,542,268,575,268,575,250,546,250,543,223" />
+                    <area alt="2302" href="2302" class="disponible" data-tooltip="2302" data-status="2302" shape="poly" coords="466,366,466,402,448,402,448,542,602,543,601,362,550,362,549,365" />
+                    <area alt="2303" href="2303" class="vendu" data-tooltip="2303" data-status="vendu" shape="poly" coords="610,322,610,543,785,543,785,441,767,440,764,321" />
+                    <area alt="2304" href="2304" class="disponible" data-tooltip="2304" data-status="2304" shape="poly" coords="620,45,620,103,548,103,548,157,704,156,704,176,790,176,790,60,710,58,707,44" />
                 </map>
             </div>
         </div>

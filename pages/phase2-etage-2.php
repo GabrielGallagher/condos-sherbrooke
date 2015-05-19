@@ -8,13 +8,15 @@
         </div>
         <div class="row">
             <div id="plan-bottom">
+                <!--Image map for the new floor plan-->
+                <!--Coordinates were defined counter-clockwise-->
                 <img src="../assets/images/plan/phase-2/etage-2.jpg" alt="Etage 2" width="930" height="665" usemap="#etages" class="mapster" border="0" />
                 <map name="etages" id="etages">
-                  <area id="VENDU" shape="poly" coords="672,185,672,68,593,67,592,54,504,54,504,110,433,110,435,165,586,166,586,185,672,185" href="2205" />
-                  <area shape="poly" coords="687,190,580,190,580,171,530,172,531,200,504,200,505,275,628,277,629,319,653,318,686,284,688,190" href="2204" />
-                  <area id="VENDU" shape="poly" coords="493,325,492,423,529,424,529,541,667,543,667,438,647,439,647,325,493,325" href="2203" />
-                  <area id="VENDU" shape="poly" coords="522,542,524,430,488,430,489,363,466,364,464,369,354,367,353,403,337,403,337,542,522,542" href="2202" />
-                  <area shape="poly" coords="432,227,278,229,278,332,263,332,264,499,331,501,330,396,347,395,348,361,432,361,432,227" href="2201" />
+                    <area alt="2201" href="2201" class="disponible" data-tooltip="2201" data-status="2201" shape="poly" coords="388,222,387,328,372,330,372,499,452,501,452,392,471,392,470,357,545,356,545,324,542,323,541,267,576,266,576,249,545,248,543,222" />
+                    <area alt="2202" href="2202" class="vendu" data-tooltip="2202" data-status="vendu" shape="poly" coords="479,365,478,401,461,402,461,543,651,545,651,430,616,430,615,362" />
+                    <area alt="2203" href="2203" class="vendu" data-tooltip="2203" data-status="vendu" shape="poly" coords="624,322,624,420,660,421,660,543,800,544,802,440,782,439,779,322" />
+                    <area alt="2204" href="2204" class="disponible" data-tooltip="2204" data-status="2204" shape="poly" coords="648,164,648,193,622,193,621,269,748,269,748,312,780,312,780,302,806,276,806,183,697,183,696,164" />
+                    <area alt="2205" href="2205" class="vendu" data-tooltip="2205" data-status="vendu" shape="poly" coords="621,43,621,101,549,102,548,156,705,155,704,174,792,174,792,58,710,57,709,43" />
                 </map>
             </div>
         </div>

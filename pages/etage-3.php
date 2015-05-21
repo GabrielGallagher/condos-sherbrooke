@@ -1,4 +1,4 @@
-data-tooltip="2301" <div class="row">
+<div class="row">
     <div class="large-12 columns">
         <h1>Étage 3 - Cliquez sur une unité</h1>
         <div id="plan" class="row">

@@ -2,7 +2,11 @@
     <div class="large-12 columns">
 		<h1>Phase 2 Étage 1 </h1>
         <div id="plan" class="row">
-            <div class="large-3 columns text-right large-offset-9">
+            <div class="large-9 columns text-left">
+                <h3 class="left">vendu</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/vendu.jpg" alt="Les Condos VV" />
+                <h3 class="left">disponible</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/disponible.jpg" alt="Les Condos VV" />
+            </div>
+            <div class="large-3 columns text-right">
                 <h3 class="left">etage - <a class="stage" href="phase2-etage-1">1</a> <a class="stage" href="phase2-etage-2">2</a> <a class="stage" href="phase2-etage-3">3</a> <a class="stage" href="phase2-etage-4">4</a></h3>
             </div>
         </div>
@@ -18,6 +22,10 @@
                     <area alt="2104" class="vendu" data-tooltip="2104" data-status="vendu" href="2104" shape="poly" coords="620,42,620,154,704,155,703,173,790,173,790,58,708,56,707,42" />
                 </map>
             </div>
+        </div>
+        <div class="row">
+            <h2>Profiter de la Saison Estival gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;</h2>
+            <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="pavillon d'&eacute;t&eacute;"/>
         </div>
     </div>
 </div>

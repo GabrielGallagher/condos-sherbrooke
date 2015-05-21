@@ -78,9 +78,9 @@
                                        alt="Condos VV"
                                        width="935" height="581" usemap="#etages" class="mapster" border="0" style="width: 100%; height: auto; width: auto"/>
                 <map name="etages" id="etages">
-                    <area id="Phase 1" shape="poly" coords="215,224,216,367,254,426,410,426,410,213,215,213"
+                    <area alt="Phase 1" data-tooltip="Phase 1" data-status="phase-1" shape="poly" coords="215,224,216,367,254,426,410,426,410,213,215,213"
                           href="plan-condos"/>
-                    <area id="Phase 2" shape="poly" coords="418,206,418,418,614,417,615,207,437,206" href="phase-2"/>
+                    <area alt="Phase 2" data-tooltip="Phase 2" data-status="phase-2" shape="poly" coords="418,206,418,418,614,417,615,207,437,206" href="phase-2"/>
                 </map>
         </div>
     </div>

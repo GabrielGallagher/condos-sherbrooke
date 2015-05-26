@@ -51,7 +51,12 @@
         <div class="large-12 columns">
             <h3 class="text-light">parc privé, son pavillon d’été et sa piscine</h3>
             <p>Avec la réalisation de la deuxième phase, notre parc privé, pavillon d’été et piscine verront le jour.</p>
-            <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="Pavillon d'été"/>
+            <div class="flex-video widescreen">
+                <iframe src="//fast.wistia.net/embed/iframe/mlzeqiglb8" allowtransparency="true" frameborder="0"
+                        scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen
+                        webkitallowfullscreen oallowfullscreen msallowfullscreen width="475" height="267"></iframe>
+                <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+            </div>
         </div>
     </div>
 </section>
@@ -66,19 +71,13 @@
                 <li><a href="1401">Suite 1401 - Condo phase 1- &eacute;tage 4</a></li>
                 <li><a href="1403">Suite 1403 - Condo phase 1- &eacute;tage 4</a></li>
             </ul>
+        </div>
+        <div class="large-6 columns">
             <h3>EN PR&Eacute;VENTE</h3>
             <ul class="styless underline">
                 <li><a href="phase-2">Condo phase 2</a></li>
             </ul>
         </div>
-        <div class="large-6 columns">
-            <div class="flex-video widescreen">
-                <iframe src="//fast.wistia.net/embed/iframe/mlzeqiglb8" allowtransparency="true" frameborder="0"
-                        scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen
-                        webkitallowfullscreen oallowfullscreen msallowfullscreen width="475" height="267"></iframe>
-                <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-        </div>
-    </div>
 </section>
 
 <section>

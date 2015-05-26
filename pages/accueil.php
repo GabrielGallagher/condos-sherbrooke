@@ -50,7 +50,7 @@
     <div class="row">
         <div class="large-12 columns">
             <h3 class="text-light">parc privé, son pavillon d’été et sa piscine</h3>
-            <p>Avec la réalisation de la deuxième phase, notre parc privé, son pavillon d’été et sa piscine verront le jour.</p>
+            <p>Avec la réalisation de la deuxième phase, notre parc privé, pavillon d’été et piscine verront le jour.</p>
             <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="Pavillon d'été"/>
         </div>
     </div>

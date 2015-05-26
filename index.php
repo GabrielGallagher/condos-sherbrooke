@@ -12,63 +12,46 @@ if (browser_detection( 'browser' ) == 'ie' && browser_detection( 'number' ) == 6
 	//exit();
 }
 
-
-// Include recaptcha
-require_once('modules/recaptchalib.php');
-
 // Get a key from https://www.google.com/recaptcha/admin/create
 $publickey = "6Lc53c8SAAAAADT56DmyzOJpfN8ZX8-YUzpBzPJH";
 $privatekey = "6Lc53c8SAAAAAI2ZqRt-2MwC_Rd_BpztBAfdiE1i";
 
-# the response from reCAPTCHA
-$resp = null;
-# the error code from reCAPTCHA, if any
-$error = null;
-
 // Contact
-if(isset($_POST['nom']) && $_POST['nom'] !="")
+if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 {
 
 	// Smart variable
-	$nom 		= $_POST['nom'];
-	$courriel 	= $_POST['courriel'];
-	$telephone 	= $_POST['telephone'];
-	$comments 	= $_POST['question'];
-	$dest       = "gilp@videotron.ca";
-	$subject    = "Condos VV | Demande d'information";
-	
-		# was there a reCAPTCHA response?
+    $to       = "gilp@videotron.ca";
+    $subject    = "Condos VV | Demande d'information";
+    $comments 	= $_POST['question'];
+    $nom 		= $_POST['nom'];
+    $courriel 	= $_POST['courriel'];
+    $telephone 	= $_POST['telephone'];
 
-	$resp = recaptcha_check_answer ($privatekey,
-									$_SERVER["REMOTE_ADDR"],
-									$_POST["recaptcha_challenge_field"],
-									$_POST["recaptcha_response_field"]);
-	
-	// Form verification
+	// email verification
 	if(!preg_match("/^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$/i", $courriel)) {
-		$invalid = true; 
 		$message = "ERREUR: L'adresse courriel saisie est invalide.";
-	}
-	elseif($resp->is_valid){
-		$valid = true;
+	} else {
 		// Set email and send message
-		$to = $dest;
 		$body = "<html><body><br />Nom: " . $nom . "<br />Courriel: " . $courriel . "<br />Telephone: " . $telephone . "<br /><br />Message:" . $comments . "<br /><br />-- Condos VV<br />-- Powered by Standish Communications";
 		$body_copy = "Ceci est une copie du message que vous venez d'envoyer via le site web de Condos VV. <br />S'il vous plait, ne pas repondre a ce courriel. <br /><br />".$body;
-		
-		if (mail($to, $subject, $body, "From: nepasrepondre@condosvv.com\nReply-To: " . $courriel . ", MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8"))
-			if (mail($courriel, $subject, $body_copy, "From: " . $dest .", MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8"))
-				$message = "Merci de votre demande. Vous serez contact&eacute; d'ici 72 heures.";
-		else
-			$message = "L'envois du message a &eacute;chou&eacute;. Veuillez nous contacter via courriel ou t&eacute;l&eacute;phone. ";
-	}else {
-		$invalid = true; 
-		if($resp->error == "incorrect-captcha-sol"){
-			$message = "R&eacute;ponse captcha incorrect!";
-		} else {
-			$message = $resp->error;
-		}
+
+//      Send email to incumbent
+        $email_accepted = mail($to, $subject, $body, "From: nepasrepondre@condosvv.com\nReply-To: " . $courriel . ", MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8");
+
+		if ($email_accepted)
+        {
+            echo "Email accepted";
+//          Send a confirmation to the user
+            mail($courriel, $subject, $body_copy, "From: " . $to .", MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8");
+            $message = "Merci de votre demande. Vous serez contact&eacute; d'ici 72 heures.";
+        } else {
+            echo "Email rejected";
+            $message = "L'envois du message a &eacute;chou&eacute;. Veuillez nous contacter via courriel ou t&eacute;l&eacute;phone. ";
+        }
 	}
+} elseif ($_POST['action'] == 'send') {
+    $message = "ERREUR! Remplir tout les champs, s'il vous plaît";
 }
 ?>
 
@@ -129,7 +112,6 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 	  })();
 
 	</script>
-	
 </head>
 
  

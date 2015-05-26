@@ -1,4 +1,4 @@
-<form action="<?php echo BASE_URL; ?>information" method="POST">
+<form action="" method="POST">
 	<div id="form">
 		<?php if($message) echo '<div class="error">' . $message . ' </div>'; ?>
 		<div class="field">
@@ -14,16 +14,16 @@
 			<input type="text" name="telephone" id="telephone" value="<?php echo $telephone; ?>"/>
 		</div>
 		<div class="field">
-			<label for="unitee">Message :</label>
+			<label for="question">Message:</label>
 			<textarea rows="2" cols="21" name="question" id="question"><?php echo $comments; ?></textarea>
 		</div>
 		<div class="field">
-			<label for="captcha">Captcha : </label>
-			<?php echo recaptcha_get_html($publickey, $error); ?>
+            <p>Check this before submitting. This helps prevent spam.</p>
+            <label for="not-spam"><input type="checkbox" name="not-spam" id="not-spam"> I'm not a spam bot!</label>
 		</div>
 		<div class="submit">
 			<input type="submit" value="ENVOYER" class="button" />
-			<input type="hidden" name="action" value="send" />
+			<input type="hidden" name="action" id="action" value="send" />
 		</div>
 	</div>
 </form>

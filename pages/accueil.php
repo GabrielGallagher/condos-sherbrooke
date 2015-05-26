@@ -111,7 +111,7 @@
             <li>Design unique et personnalis&eacute;</li>
             <li>Ascenseur</li>
             <li>Stationnements int&eacute;rieurs disponibles</li>
-            <li>Fenestration abondant et balcons surdimensionn&eacute;s</li>
+            <li>Fenestration abondante et balcons surdimensionn&eacute;s</li>
             <li>Vue imprenable sur la ville</li>
             <li>Plafonds 9 et 10 pieds</li>
             <li>Finition supérieure et qualit&eacute; de vie unique</li>

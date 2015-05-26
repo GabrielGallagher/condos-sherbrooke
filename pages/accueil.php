@@ -23,7 +23,7 @@
         <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 text-center columns no-space">
-                    <h1><strong>1 Juin 2015</strong></h1>
+                    <h1><strong>Mai 2015</strong></h1>
                 </div>
                 <div class="large-12 text-center columns no-space">
                     <h2 class="subheader">Promotion spéciale sur condos en inventaire libre

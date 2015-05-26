@@ -143,9 +143,9 @@ if(isset($_POST['nom']) && $_POST['nom'] !="")
 				<div class="large-3 columns" id="logo"><a href="<? echo BASE_URL; ?>accueil" title="" rel="home">Condos VV</a></div>
 				<div class="large-9 columns" id="nav">
 					<ul class="styless">
+	                    <li><a href="<? echo BASE_URL; ?>">Home</a> |</li>
 	                    <li><a href="<? echo BASE_URL; ?>plan-condos">Phase 1</a> |</li>
 						<li><a href="<? echo BASE_URL; ?>phase-2">Phase 2</a> |</li>
-	                    <!--<li><a href="<? echo BASE_URL; ?>prix">Liste de prix</a> |</li>-->
 						<li><a href="<? echo BASE_URL; ?>galerie">Galerie</a> |</li>
 						<li><a href="<? echo BASE_URL; ?>information">Information</a></li>
 					</ul>

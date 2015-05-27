@@ -18,8 +18,8 @@
 			<textarea rows="2" cols="21" name="question" id="question"><?php echo $comments; ?></textarea>
 		</div>
 		<div class="field">
-            <p>Check this before submitting. This helps prevent spam.</p>
-            <label for="not-spam"><input type="checkbox" name="not-spam" id="not-spam"> I'm not a spam bot!</label>
+            <p>Cochez cette case avant d'envoyer le formulaire. Ça prévient le spam.</p>
+            <label for="not-spam"><input type="checkbox" name="not-spam" id="not-spam"> Je suis un humain!</label>
 		</div>
 		<div class="submit">
 			<input type="submit" value="ENVOYER" class="button" />

@@ -44,3 +44,7 @@
         </ul>
     </div>
 </div>
+<div class="row">
+    <h2>Profiter de la Saison Estival gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;</h2>
+    <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="pavillon d'&eacute;t&eacute;"/>
+</div>

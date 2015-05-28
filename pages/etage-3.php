@@ -1,6 +1,11 @@
 <div class="row">
     <div class="large-12 columns">
-        <h1>Étage 3 - Cliquez sur une unité</h1>
+        <div class="row header">
+            <div class="large-12 columns">
+                <h1>Phase 1 Étage 3</h1>
+                <span class="radius label">Appelez le <a href="tel:819-572-0880">(819) 572-0880</a> pour obtenir plus d'informations.</span>
+            </div>
+        </div>
         <div id="plan" class="row">
             <div class="large-9 columns text-left">
                 <h3 class="left">vendu</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/vendu.jpg" alt="Les Condos VV" />

@@ -1,6 +1,11 @@
 <div class="row">
     <div class="large-12 columns">
-			<h1>Phase 2 Étage 4 </h1>
+        <div class="row header">
+            <div class="large-12 columns">
+                <h1>Phase 2 Étage 4</h1>
+                <span class="radius label"><a href="tel:819-572-0880">(819) 572-0880</a> appeler pour obtenir plus d'informations</span>
+            </div>
+        </div>
         <div id="plan" class="row">
             <div class="large-9 columns text-left">
                 <h3 class="left">vendu</h3> <img class="left" style="padding:15px 15px 0 7px;" src="<? echo BASE_URL; ?>assets/images/plan/vendu.jpg" alt="Les Condos VV" />
@@ -22,6 +27,10 @@
                     <area alt="2404" class="disponible" data-tooltip="2404" data-tooltip="2401" data-status="2404" href="2404" shape="poly" coords="620,38,620,97,547,97,548,175,566,176,566,151,704,151,705,171,794,171,793,53,711,51,710,38" />
                 </map>
             </div>
+        </div>
+        <div class="row">
+            <h2>Profiter de la Saison Estival gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;</h2>
+            <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="pavillon d'&eacute;t&eacute;"/>
         </div>
     </div>
 </div>

@@ -74,3 +74,20 @@ button, .button {
     margin-bottom: 0;
     margin-top: 0;
 }
+
+.label a {
+    color: white;
+    text-decoration: underline;
+}
+
+/*Call to action next to a title*/
+.header h1 {
+    display: inline-block;
+}
+
+.header .label {
+    position: relative;
+    bottom: 5px;
+    margin-left: 15px;
+    font-size: .9rem;
+}

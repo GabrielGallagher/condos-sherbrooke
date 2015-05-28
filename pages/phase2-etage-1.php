@@ -3,7 +3,7 @@
         <div class="row header">
             <div class="large-12 columns">
                 <h1>Phase 2 Étage 1</h1>
-                <span class="radius label"><a href="tel:819-572-0880">(819) 572-0880</a> appeler pour obtenir plus d'informations</span>
+                <span class="radius label">Appelez le <a href="tel:819-572-0880">(819) 572-0880</a> pour obtenir plus d'informations.</span>
             </div>
         </div>
         <div id="plan" class="row">

@@ -90,6 +90,8 @@
                     <area alt="Phase 1" data-tooltip="Phase 1" data-status="phase-1" shape="poly" coords="215,224,216,367,254,426,410,426,410,213,215,213"
                           href="plan-condos"/>
                     <area alt="Phase 2" data-tooltip="Phase 2" data-status="phase-2" shape="poly" coords="418,206,418,418,614,417,615,207,437,206" href="phase-2"/>
+                    <area alt="Parc privée, piscine et pavillon d’été" data-tooltip="Parc privée, piscine et pavillon d’été" data-status="pavillion-dete"
+                          shape="poly" coords="358,465,574,465,575,548,357,548" href="../assets/images/etages/pavillon-et-piscine.jpg" rel="prettyPhoto[image_map]"/>
                 </map>
         </div>
     </div>

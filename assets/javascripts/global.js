@@ -30,18 +30,17 @@
             }
         });
 
-        /* Image Map Tooltip
+        /* Tooltip
          ================================================== */
 
         $("map area").tooltip({
-            delay: '0',
-            showURL: false,
-            bodyHandler: function () {
+            track: true,
+            content: function () {
                 var tooltipTitle = $(this).attr('data-tooltip');
 
                 if ($(this).hasClass('vendu')) {
                     tooltipTitle += ' - VENDU'
-                } else if($(this).hasClass('disponible')) {
+                } else if ($(this).hasClass('disponible')) {
                     tooltipTitle += ' - DISPONIBLE'
                 }
 
@@ -64,74 +63,76 @@
      ================================================== */
 
     window.onload = function (e) {
-        var resizeTime = 100;     // total duration of the resize effect, 0 is instant
-        var resizeDelay = 100;    // time to wait before checking the window size again
-                                  // the shorter the time, the more reactive it will be.
-                                  // short or 0 times could cause problems with old browsers.
+        if (typeof $('img.mapster').length != 0) {
+            var resizeTime = 100;     // total duration of the resize effect, 0 is instant
+            var resizeDelay = 100;    // time to wait before checking the window size again
+                                      // the shorter the time, the more reactive it will be.
+                                      // short or 0 times could cause problems with old browsers.
 
-        $('img.mapster').mapster({
-            mapKey: 'data-status',
-            fillColor: '8c201b',
-            fillOpacity: .70,
-            areas: [{
-                key: 'vendu',
-                fillColor: '777777',
-                staticState: true,
-                fillOpacity: 0.4
-            }],
-            onClick: function(data) {
-                data.e.preventDefault();
-                if(typeof $(this).attr('rel') === 'undefined' || $(this).attr('rel') === "") {
-                    return true;
+            $('img.mapster').mapster({
+                mapKey: 'data-status',
+                fillColor: '8c201b',
+                fillOpacity: .70,
+                areas: [{
+                    key: 'vendu',
+                    fillColor: '777777',
+                    staticState: true,
+                    fillOpacity: 0.4
+                }],
+                onClick: function (data) {
+                    data.e.preventDefault();
+                    if (typeof $(this).attr('rel') === 'undefined' || $(this).attr('rel') === "") {
+                        return true;
+                    }
+
+                    return false;
                 }
+            });
 
-                return false;
+            //  Resizes the image map to fit within the boundaries provided
+            function resize(maxWidth, maxHeight) {
+                var image = $('img.mapster'),
+                    imgWidth = image.width(),
+                    imgHeight = image.height(),
+                    newWidth = 0,
+                    newHeight = 0;
+                newWidth = maxWidth;
+
+                image.mapster('resize', newWidth, newHeight, resizeTime);
             }
-        });
 
-        //  Resizes the image map to fit within the boundaries provided
-        function resize(maxWidth, maxHeight) {
-            var image = $('img.mapster'),
-                imgWidth = image.width(),
-                imgHeight = image.height(),
-                newWidth = 0,
-                newHeight = 0;
-            newWidth = maxWidth;
+            //  Track window resizing events, but only actually call the map resize when the
+            //  window isn't being resized any more
+            function onWindowResize() {
+                var imageContainer = $('img.mapster').parents('div.columns')[0],
+                    curWidth = imageContainer.clientWidth,
+                    curHeight = imageContainer.clientHeight,
+                    checking = false;
 
-            image.mapster('resize', newWidth, newHeight, resizeTime);
-        }
+                if (checking) {
+                    return;
+                }
+                checking = true;
+                window.setTimeout(function () {
+                    var newWidth = imageContainer.clientWidth,
+                        newHeight = imageContainer.clientHeight;
+                    if (newWidth === curWidth &&
+                        newHeight === curHeight) {
 
-        //  Track window resizing events, but only actually call the map resize when the
-        //  window isn't being resized any more
-        function onWindowResize() {
+                        resize(newWidth, newHeight);
+                    }
+                    checking = false;
+                }, resizeDelay);
+            }
+
+            $(window).bind('resize', onWindowResize);
+
+            //  Execute the first adjustment right after the page loads.
             var imageContainer = $('img.mapster').parents('div.columns')[0],
-                curWidth = imageContainer.clientWidth,
-                curHeight = imageContainer.clientHeight,
-                checking = false;
+                initWidth = imageContainer.clientWidth,
+                initHeight = imageContainer.clientHeight;
 
-            if (checking) {
-                return;
-            }
-            checking = true;
-            window.setTimeout(function () {
-                var newWidth = imageContainer.clientWidth,
-                    newHeight = imageContainer.clientHeight;
-                if (newWidth === curWidth &&
-                    newHeight === curHeight) {
-
-                    resize(newWidth, newHeight);
-                }
-                checking = false;
-            }, resizeDelay);
+            resize(initWidth, initHeight);
         }
-
-        $(window).bind('resize', onWindowResize);
-
-        //  Execute the first adjustment right after the page loads.
-        var imageContainer = $('img.mapster').parents('div.columns')[0],
-            initWidth = imageContainer.clientWidth,
-            initHeight = imageContainer.clientHeight;
-
-        resize(initWidth, initHeight);
     };
 }());

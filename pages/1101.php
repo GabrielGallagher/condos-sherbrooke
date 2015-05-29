@@ -19,5 +19,10 @@
                 <img src="../assets/images/plan/1101.jpg" alt="Etage 1" class="etages" border="0" />
             </div>
         </div>
+        <div class="row">
+            <div class="photoset-grid" data-layout="1" style="visibility: hidden;">
+                <img src="../assets/images/condoGalerie/thumbs/gallery_1101.jpg" alt="Condo 1101" data-highres="../assets/images/condoGalerie/fullRes/gallery_1101.JPG"/>
+            </div>
+        </div>
     </div>
 </div>

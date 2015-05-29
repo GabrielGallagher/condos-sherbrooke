@@ -17,8 +17,15 @@
         <div class="row">
             <div id="plan-bottom">
                 <img src="../assets/images/plan/1401.jpg" alt="Etage 1" class="etages" border="0" />
-                <img src="../assets/images/1401.jpg" alt="Etage 1" class="etages" border="0" />
-                <img src="../assets/images/1401-2.jpg" alt="Etage 1" class="etages" border="0" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="photoset-grid" data-layout="132" style="visibility: hidden;">
+                <img src="../assets/images/condoGalerie/thumbs/gallery_1401_5.jpg" alt="Condo 1401" data-highres="../assets/images/condoGalerie/fullRes/gallery_1401_5.jpg"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_1401_1.jpg" alt="Condo 1401" data-highres="../assets/images/condoGalerie/fullRes/gallery_1401_1.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_1401_4.jpg" alt="Condo 1401" data-highres="../assets/images/condoGalerie/fullRes/gallery_1401_4.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_1401_3.jpg" alt="Condo 1401" data-highres="../assets/images/condoGalerie/fullRes/gallery_1401_3.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_1401_2.jpg" alt="Condo 1401" data-highres="../assets/images/condoGalerie/fullRes/gallery_1401_2.JPG"/>
             </div>
         </div>
     </div>

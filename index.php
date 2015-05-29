@@ -75,13 +75,11 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 	
 	<!-- CSS
     ================================================== -->
-	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/base.css">-->
-	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/grid.css">-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/prettyPhoto.css">
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/colorbox.css">
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/condosvv.css?v=2.0">
 
-  	<!--<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/normalize.css>-->
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/foundation.css">
 
 	<link rel="stylesheet" href="<? echo BASE_URL; ?>assets/stylesheets/app.css">
@@ -204,13 +202,13 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 
 	<!-- Javascript
 	================================================== -->
-	<script src="<? echo BASE_URL; ?>assets/javascripts/jquery-1.7.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="<? echo BASE_URL; ?>assets/javascripts/jquery.prettyPhoto.js"></script>
 	<script src="<? echo BASE_URL; ?>assets/javascripts/global.js"></script>
     
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.imagemapster.min.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.metadata.js"></script>
-    <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.tooltip.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.photoset-grid.min.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/foundation.min.js"></script>
     <script>

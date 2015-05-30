@@ -36,7 +36,7 @@
         $("map area").tooltip({
             track: true,
             content: function () {
-                var tooltipTitle = $(this).attr('data-tooltip');
+                var tooltipTitle = $(this).attr('alt');
 
                 if ($(this).hasClass('vendu')) {
                     tooltipTitle += ' - VENDU'

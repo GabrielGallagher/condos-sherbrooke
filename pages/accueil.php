@@ -23,18 +23,27 @@
         <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 text-center columns no-space">
-                    <h1><strong>Mai 2015</strong></h1>
+                    <h1><strong>ATTENTION !!!!! PROMOTION  DU 1ER AU 20 JUIN 2015</strong></h1>
                 </div>
                 <div class="large-12 text-center columns no-space">
-                    <h2 class="subheader">Promotion spéciale sur condos en inventaire libre
-                                          immédiatement</h2>
+                    <h2 class="subheader">À NOTRE PROCHAIN ACHETEUR</h2>
                 </div>
                 <div class="large-10 columns text-center large-offset-1">
                     <hr/>
                 </div>
                 <div class="large-12 text-center columns no-space">
-                    <h4>Phase 1: Liquidation démonstrateur, offrez vous le meilleur au meilleur prix! Meilleure offre acceptée.</h4>
-                    <h4>Phase 2: Profitez de notre liste de prix pré-construction avant le 1 juin 2015.</h4></div>
+                    <h4>SOYEZ FUTÉ, INTELLIGENT, BRILLANT, HORS DE L'ORDINAIRE, ÉLÉGANT, RAFFINÉ !!!</h4>
+                    <h4>ACHETEZ UN CONDO W</h4>
+                    <h4>À NOTRE 25 IEME CLIENT NOUS OFFRONS;</h4>
+                    <h4>$2500  DE MEUBLES MOBILIER NOR-SUD</h4>
+                    <h4>$2500  SUR LE PRIX DE VENTE</h4>
+                    <h4>$2500 D'ALLOCATION SUPPLÉMENTAIRE CHEZ NOS FOURNISSEURS</h4>
+                    <h4>$2500 DE RABAIS À L'ACHAT D'UN ESPACE GARAGE ADDITIONNEL AU CONDO</h4>
+                    <h4>PLUS DE 10000$ EN VALEUR POUR VOUS !</h4>
+                    <h4>À L'ACHAT OU RÉSERVATION  D'UN CONDO AVANT LE 25 JUIN SEULEMENT</h4>
+                    <h4>RABAIS DÉMONSTRATEUR ADDITIONNELS VALIDE !!!</h4>
+                    <h4>SOYEZ FUTÉ</h4>
+                </div>
                 <div class="large-4 large-offset-8 columns">
                     <h3><small>Prenez rendez-vous </small><a href="tel:+18195720880">(819) 572-0880</a></strong></h3>
                 </div>

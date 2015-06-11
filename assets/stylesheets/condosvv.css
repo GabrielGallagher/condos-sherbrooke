@@ -80,7 +80,7 @@ span.w{
 	margin-right: 4px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #ccc;
+	color: white;
 }
 
 #nav li a {
@@ -313,16 +313,20 @@ body.home {
 	background-repeat: no-repeat;
 }
 
-body.type .masthead {
-	background-image: url(../images/home.jpg);
-	background-position: top center;
-	background-repeat: no-repeat;
+.masthead {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-.masthead {
-	padding-bottom: 20px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: rgba(0, 0, 0, 0.2);
+body.type .masthead {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+    ),
+    url(../images/home.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 /* Tooltip

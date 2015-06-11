@@ -1,0 +1,2 @@
+The images in this folder are not of higher resolution than those in the thumbs folder. They are called `fullRes` because 
+this are the images used in the LightBox, and sometimes, they are indeed high-res.

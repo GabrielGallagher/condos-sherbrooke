@@ -4,13 +4,32 @@
 // Date   : April 2015
 
 ?>
-<link href="../assets/stylesheets/condosvv.css" rel="stylesheet" type="text/css" />
+<link href="../assets/stylesheets/condosvv.css" rel="stylesheet" type="text/css"/>
+<section>
+    <div class="row">
+        <div class="columns large-12">
+            <a href="information">
+                <blockquote>
+                    W condominiums est particulièrement articulé sur un principe de densité contrôlee par phase pour
+                    assurer la quiétude et la qualité de vie de ses propriétaires.
+                    <br/>
+                    Avec un architecture moderne et adapté à l avenir, nous maintenons notre fenestration abondante ,
+                    nos balcons bord de mer surdimensionnés au premier plan de la qualité de vie qu impose la
+                    localisation unique et plus qu avantageuse du W.
+                    <cite>Gil Poulin & Jean Audet. Promoteurs</cite>
+                </blockquote>
+            </a>
+        </div>
+    </div>
+</section>
 
 <section class="promotion">
     <div class="row">
         <div class="large-9 columns">
             <h3 class="text-light">Condos à vendre avec vue magnifique à Sherbrooke. Les condos W</h3>
-            <p><strong>Vous cherchez un condo raffiné, un design personnalisé, une vue exceptionnelle. Vous avez trouvé la bonne adresse!</strong></p>
+
+            <p><strong>Vous cherchez un condo raffiné, un design personnalisé, une vue exceptionnelle. Vous avez trouvé
+                    la bonne adresse!</strong></p>
         </div>
         <div class="large-3 columns">
             <a href="galerie" class="button">VOIR LES PHOTO &raquo;</a>
@@ -23,7 +42,7 @@
         <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 text-center columns no-space">
-                    <h1><strong>ATTENTION !!!!! PROMOTION  DU 1ER AU 20 JUIN 2015</strong></h1>
+                    <h1><strong>ATTENTION !!!!! PROMOTION DU 1ER AU 20 JUIN 2015</strong></h1>
                 </div>
                 <div class="large-12 text-center columns no-space">
                     <h2 class="subheader">À NOTRE PROCHAIN ACHETEUR</h2>
@@ -35,17 +54,19 @@
                     <h4>SOYEZ FUTÉ, INTELLIGENT, BRILLANT, HORS DE L'ORDINAIRE, ÉLÉGANT, RAFFINÉ !!!</h4>
                     <h4>ACHETEZ UN CONDO W</h4>
                     <h4>À NOTRE 25 IEME CLIENT NOUS OFFRONS;</h4>
-                    <h4>$2500  DE MEUBLES MOBILIER NOR-SUD</h4>
-                    <h4>$2500  SUR LE PRIX DE VENTE</h4>
+                    <h4>$2500 DE MEUBLES MOBILIER NOR-SUD</h4>
+                    <h4>$2500 SUR LE PRIX DE VENTE</h4>
                     <h4>$2500 D'ALLOCATION SUPPLÉMENTAIRE CHEZ NOS FOURNISSEURS</h4>
                     <h4>$2500 DE RABAIS À L'ACHAT D'UN ESPACE GARAGE ADDITIONNEL AU CONDO</h4>
                     <h4>PLUS DE 10000$ EN VALEUR POUR VOUS !</h4>
-                    <h4>À L'ACHAT OU RÉSERVATION  D'UN CONDO AVANT LE 25 JUIN SEULEMENT</h4>
+                    <h4>À L'ACHAT OU RÉSERVATION D'UN CONDO AVANT LE 25 JUIN SEULEMENT</h4>
                     <h4>RABAIS DÉMONSTRATEUR ADDITIONNELS VALIDE !!!</h4>
                     <h4>SOYEZ FUTÉ</h4>
                 </div>
                 <div class="large-4 large-offset-8 columns">
-                    <h3><small>Prenez rendez-vous </small><a href="tel:+18195720880">(819) 572-0880</a></strong></h3>
+                    <h3>
+                        <small>Prenez rendez-vous</small>
+                        <a href="tel:+18195720880">(819) 572-0880</a></strong></h3>
                 </div>
             </div>
         </div>
@@ -59,7 +80,10 @@
     <div class="row">
         <div class="large-12 columns">
             <h3 class="text-light">parc privé, son pavillon d’été et sa piscine</h3>
-            <p>Avec la réalisation de la deuxième phase, notre parc privé, pavillon d’été et piscine verront le jour.</p>
+
+            <p>Avec la réalisation de la deuxième phase, notre parc privé, pavillon d’été et piscine verront le
+                jour.</p>
+
             <div class="flex-video widescreen">
                 <iframe src="//fast.wistia.net/embed/iframe/mlzeqiglb8" allowtransparency="true" frameborder="0"
                         scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen
@@ -93,15 +117,20 @@
     <div class="row">
         <div class="large-12 columns">
             <img src="../assets/images/plan/plan-implentationv3.png"
-                                       alt="Condos VV"
-                                       width="935" height="581" usemap="#etages" class="mapster" border="0" style="width: 100%; height: auto; width: auto"/>
-                <map name="etages" id="etages">
-                    <area alt="Phase 1" data-tooltip="Phase 1" data-status="phase-1" shape="poly" coords="215,224,216,367,254,426,410,426,410,213,215,213"
-                          href="plan-condos"/>
-                    <area alt="Phase 2" data-tooltip="Phase 2" data-status="phase-2" shape="poly" coords="418,206,418,418,614,417,615,207,437,206" href="phase-2"/>
-                    <area alt="Parc privée, piscine et pavillon d’été" data-tooltip="Parc privée, piscine et pavillon d’été" data-status="pavillion-dete"
-                          shape="poly" coords="358,465,574,465,575,548,357,548" href="../assets/images/etages/pavillon-et-piscine.jpg" rel="prettyPhoto[image_map]"/>
-                </map>
+                 alt="Condos VV"
+                 width="935" height="581" usemap="#etages" class="mapster" border="0"
+                 style="width: 100%; height: auto; width: auto"/>
+            <map name="etages" id="etages">
+                <area alt="Phase 1" data-tooltip="Phase 1" data-status="phase-1" shape="poly"
+                      coords="215,224,216,367,254,426,410,426,410,213,215,213"
+                      href="plan-condos"/>
+                <area alt="Phase 2" data-tooltip="Phase 2" data-status="phase-2" shape="poly"
+                      coords="418,206,418,418,614,417,615,207,437,206" href="phase-2"/>
+                <area alt="Parc privée, piscine et pavillon d’été" data-tooltip="Parc privée, piscine et pavillon d’été"
+                      data-status="pavillion-dete"
+                      shape="poly" coords="358,465,574,465,575,548,357,548"
+                      href="../assets/images/etages/pavillon-et-piscine.jpg" rel="prettyPhoto[image_map]"/>
+            </map>
         </div>
     </div>
 </section>
@@ -132,12 +161,20 @@
     <div class="large-6 columns">
         <h3>PRENEZ RENDEZ-VOUZ</h3>
         M. GIL POULIN <b>PROMOTEUR</b> <span class="underline"><a href="tel:+18195720880">(819) 572-0880</a></span>
-            <br><b>VENTE ET D&Eacute;VELOPPEMENT</b> <span class="underline"><a href="tel:+18195720880">(819) 572-0880</a></span></p>
-        <p>Vous verrez les plans, les aménagements proposés de nos différentes unités, vous obtiendrez tous les détails concernant les inclusions et les prix de vente ainsi que nos promotions spéciales</p>
+        <br><b>VENTE ET D&Eacute;VELOPPEMENT</b> <span class="underline"><a href="tel:+18195720880">(819)
+                572-0880</a></span></p>
+        <p>Vous verrez les plans, les aménagements proposés de nos différentes unités, vous obtiendrez tous les détails
+            concernant les inclusions et les prix de vente ainsi que nos promotions spéciales</p>
+
         <p>Vous pourrez concrètement réserver votre condo ou votre penthouse</p>
-        <p>Nous offrirons à notre clientèle privilège nos unités de condos et penthouses à des conditions uniques et très avantageuses. Faites vite!</p>
-        <p>Vous êtes invités à venir nous rencontrer en prenant rendez-vous, communiquez avec Gil Poulin promoteur au <a href="tel:+18195720880">(819) 572-0880</a> ou par courriel au: ventes@condosvv.com</p>
+
+        <p>Nous offrirons à notre clientèle privilège nos unités de condos et penthouses à des conditions uniques et
+            très avantageuses. Faites vite!</p>
+
+        <p>Vous êtes invités à venir nous rencontrer en prenant rendez-vous, communiquez avec Gil Poulin promoteur au <a
+                href="tel:+18195720880">(819) 572-0880</a> ou par courriel au: ventes@condosvv.com</p>
+
         <p>Ou encore en complétant le formulaire suivant</p>
-		<?php include("modules/formulaire.php"); ?>
-		</div>
+        <?php include("modules/formulaire.php"); ?>
+    </div>
 </div>

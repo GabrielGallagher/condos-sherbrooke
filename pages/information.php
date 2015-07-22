@@ -33,7 +33,7 @@
 </div>
 <div class="row">
     <div class="large-12 columns">
-        <h3>Word du promoteur</h3>
+        <h3>Mot du promoteur</h3>
 
         <blockquote>
             <p><b>W condominiums. Vue et vertige</b></p>

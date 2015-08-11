@@ -1,7 +1,7 @@
 <div class="row">
     <div class="large-12 columns">
         <h1>Phase 2, pr&eacute;sentement en construction </h1>
-        <p>Soyez parmi les 1ers acheteurs à obtenir le plus grand choix aux meilleurs prix. <strong>819 572-0880</strong></p>
+        <p>Soyez parmi les 1ers acheteurs à obtenir le plus grand choix aux meilleurs prix. <strong>(819) 993-5208</strong></p>
         <div class="row">
             <div class="large-12 columns">
                 <div id="plan" class="row">
@@ -45,6 +45,6 @@
     </div>
 </div>
 <div class="row">
-    <h2>Profiter de la Saison Estival gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;</h2>
+    <h2>Profitez de la Saison Estivale gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;!</h2>
     <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="pavillon d'&eacute;t&eacute;"/>
 </div>

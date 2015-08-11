@@ -10,9 +10,9 @@
         <div class="columns large-12">
             <a href="information">
                 <blockquote>
-                    W condominiums est particulièrement articulé sur un principe de densité contrôlee par phase pour assurer la quiétude et la qualité de vie de ses propriétaires.
+                    W condominiums est particulièrement articulé sur un principe de densité contrôlée par phase pour assurer la quiétude et la qualité de vie de ses propriétaires.
                     <br/>
-                    Avec un architecture moderne et adapté à l avenir, nous maintenons notre fenestration abondante , nos balcons bord de mer surdimensionnés au premier plan de la qualité de vie qu impose la localisation unique et plus qu avantageuse du W.
+                    Avec une architecture moderne et adaptée à l'avenir, nous maintenons notre fenestration abondante, nos balcons bord de mer surdimensionnés au premier plan de la qualité de vie qu impose la localisation unique et plus qu'avantageuse du W.
                     <cite>Gil Poulin & Jean Audet. Promoteurs</cite>
                 </blockquote>
             </a>
@@ -28,7 +28,7 @@
             <p><strong>Vous cherchez un condo raffiné, un design personnalisé, une vue exceptionnelle. Vous avez trouvé la bonne adresse!</strong></p>
         </div>
         <div class="large-3 columns">
-            <a href="galerie" class="button">VOIR LES PHOTO &raquo;</a>
+            <a href="galerie" class="button">VOIR LES PHOTOS &raquo;</a>
         </div>
     </div>
 </section>
@@ -38,31 +38,28 @@
         <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 text-center columns no-space">
-                    <h1><strong>ATTENTION !!!!! PROMOTION DU 1ER AU 20 JUIN 2015</strong></h1>
+                    <h1><strong>ATTENTION !!!!! PROMOTION DU 1ER AU 31 AOÛT 2015</strong></h1>
                 </div>
                 <div class="large-12 text-center columns no-space">
-                    <h2 class="subheader">À NOTRE PROCHAIN ACHETEUR</h2>
+<!--                    <h2 class="subheader">À NOTRE PROCHAIN ACHETEUR</h2>-->
                 </div>
                 <div class="large-10 columns text-center large-offset-1">
                     <hr/>
                 </div>
                 <div class="large-12 text-center columns no-space">
                     <h4>SOYEZ FUTÉ, INTELLIGENT, BRILLANT, HORS DE L'ORDINAIRE, ÉLÉGANT, RAFFINÉ !!!</h4>
-                    <h4>ACHETEZ UN CONDO W</h4>
-                    <h4>À NOTRE 25 IEME CLIENT NOUS OFFRONS;</h4>
-                    <h4>$2500 DE MEUBLES MOBILIER NOR-SUD</h4>
-                    <h4>$2500 SUR LE PRIX DE VENTE</h4>
-                    <h4>$2500 D'ALLOCATION SUPPLÉMENTAIRE CHEZ NOS FOURNISSEURS</h4>
-                    <h4>$2500 DE RABAIS À L'ACHAT D'UN ESPACE GARAGE ADDITIONNEL AU CONDO</h4>
-                    <h4>PLUS DE 10000$ EN VALEUR POUR VOUS !</h4>
-                    <h4>À L'ACHAT OU RÉSERVATION D'UN CONDO AVANT LE 25 JUIN SEULEMENT</h4>
-                    <h4>RABAIS DÉMONSTRATEUR ADDITIONNELS VALIDE !!!</h4>
+                    <h4>ACHETEZ UN CONDO W ET PROFITEZ DE NOS SUPER OFFRES...</h4>
+                    <h4>3500$ DE MEUBLES MOBILIER NOR-SUD</h4>
+                    <h4>OU</h4>
+                    <h4>3500$ ENSEMBLE PATIO MULTI-PISCINE</h4>
+                    <h4>À L'ACHAT OU RÉSERVATION D'UN CONDO AVANT LE 31 AOÛT SEULEMENT</h4>
+                    <h4>RABAIS ADDITIONNELS SUR CONDOS-DÉMONSTRATEURS !!</h4>
                     <h4>SOYEZ FUTÉ</h4>
                 </div>
                 <div class="large-4 large-offset-8 columns">
                     <h3>
                         <small>Prenez rendez-vous</small>
-                        <a href="tel:+18195720880">(819) 572-0880</a></strong></h3>
+                        <a href="tel:+18199935208">(819) 993-5208</a></strong></h3>
                 </div>
             </div>
         </div>
@@ -149,15 +146,14 @@
     </div>
 
     <div class="large-6 columns">
-        <h3>PRENEZ RENDEZ-VOUZ</h3>
+        <h3>PRENEZ RENDEZ-VOUS</h3>
         M. GIL POULIN <b>PROMOTEUR</b> <span class="underline"><a href="tel:+18195720880">(819) 572-0880</a></span>
-        <br><b>VENTE ET DÉVELOPPEMENT</b> <span class="underline"><a href="tel:+18195720880">(819)
+        <br><b>VENTES ET DÉVELOPPEMENT</b> <span class="underline"><a href="tel:+18195720880">(819)
                 572-0880</a></span></p>
         <p>Vous verrez les plans, les aménagements proposés de nos différentes unités, vous obtiendrez tous les détails concernant les inclusions et les prix de vente ainsi que nos promotions spéciales</p>
         <p>Vous pourrez concrètement réserver votre condo ou votre penthouse</p>
         <p>Nous offrirons à notre clientèle privilège nos unités de condos et penthouses à des conditions uniques et très avantageuses. Faites vite!</p>
-        <p>Vous êtes invités à venir nous rencontrer en prenant rendez-vous, communiquez avec Gil Poulin promoteur au <a
-                href="tel:+18195720880">(819) 572-0880</a> ou par courriel au: ventes@condosvv.com</p>
+        <p>Vous êtes invités à venir nous rencontrer en prenant rendez-vous, communiquez avec Gil Poulin promoteur au <a href="tel:+18199935208">(819) 993-5208</a> ou par courriel au: ventes@condosvv.com</p>
 
         <p>Ou encore en complétant le formulaire suivant</p>
         <?php include("modules/formulaire.php"); ?>

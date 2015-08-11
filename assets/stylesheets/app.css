@@ -108,7 +108,13 @@ blockquote {
     line-height: 1.45;
     position: relative;
     color: #383838;
+    border: none;
 }
+blockquote > span {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
 blockquote p {
     color: #383838 !important;
 }

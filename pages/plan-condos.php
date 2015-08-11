@@ -33,11 +33,11 @@
             <li>Standing unique</li>
             <li>Système d’alarme incendie et gicleurs</li>
             <li>Et de nombreux autres avantages...</li>
-            <li>Pavillon d'&eacute;t&eacute; et stationnement priv&eacute;e</li>
+            <li>Pavillon d'&eacute;t&eacute; et stationnement priv&eacute;</li>
         </ul>
     </div>
     <div class="row">
-        <h2>Profiter de la Saison Estival gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;</h2>
+        <h2>Profitez de la Saison Estivale gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;!</h2>
         <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="pavillon d'&eacute;t&eacute;"/>
     </div>
 </div>

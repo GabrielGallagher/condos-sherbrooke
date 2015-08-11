@@ -10,12 +10,9 @@
         <div class="columns large-12">
             <a href="information">
                 <blockquote>
-                    W condominiums est particulièrement articulé sur un principe de densité contrôlee par phase pour
-                    assurer la quiétude et la qualité de vie de ses propriétaires.
+                    W condominiums est particulièrement articulé sur un principe de densité contrôlee par phase pour assurer la quiétude et la qualité de vie de ses propriétaires.
                     <br/>
-                    Avec un architecture moderne et adapté à l avenir, nous maintenons notre fenestration abondante ,
-                    nos balcons bord de mer surdimensionnés au premier plan de la qualité de vie qu impose la
-                    localisation unique et plus qu avantageuse du W.
+                    Avec un architecture moderne et adapté à l avenir, nous maintenons notre fenestration abondante , nos balcons bord de mer surdimensionnés au premier plan de la qualité de vie qu impose la localisation unique et plus qu avantageuse du W.
                     <cite>Gil Poulin & Jean Audet. Promoteurs</cite>
                 </blockquote>
             </a>
@@ -26,10 +23,9 @@
 <section class="promotion">
     <div class="row">
         <div class="large-9 columns">
-            <h3 class="text-light">Condos à vendre avec vue magnifique à Sherbrooke. Les condos W</h3>
+            <h3 class="text-light">CONDOS À VENDRE AVEC VUE MAGNIFIQUE À SHERBROOKE. LES CONDOS W</h3>
 
-            <p><strong>Vous cherchez un condo raffiné, un design personnalisé, une vue exceptionnelle. Vous avez trouvé
-                    la bonne adresse!</strong></p>
+            <p><strong>Vous cherchez un condo raffiné, un design personnalisé, une vue exceptionnelle. Vous avez trouvé la bonne adresse!</strong></p>
         </div>
         <div class="large-3 columns">
             <a href="galerie" class="button">VOIR LES PHOTO &raquo;</a>
@@ -79,10 +75,9 @@
 <section>
     <div class="row">
         <div class="large-12 columns">
-            <h3 class="text-light">parc privé, son pavillon d’été et sa piscine</h3>
+            <h3 class="text-light">PARC PRIVÉ, SON PAVILLON D’ÉTÉ ET SA PISCINE</h3>
 
-            <p>Avec la réalisation de la deuxième phase, notre parc privé, pavillon d’été et piscine verront le
-                jour.</p>
+            <p>Avec la réalisation de la deuxième phase, notre parc privé, pavillon d’été et piscine verront le jour.</p>
 
             <div class="flex-video widescreen">
                 <iframe src="//fast.wistia.net/embed/iframe/mlzeqiglb8" allowtransparency="true" frameborder="0"
@@ -138,22 +133,17 @@
 <div class="row">
     <div class="large-6 columns">
         <h3>CHOISISSEZ MAINTENANT VOTRE CONDO DE R&Ecirc;VE!</h3>
-
-        <p>Offrez-vous un condo de prestige sur un site exceptionnel offrant une vue spectaculaire unique &agrave;
-            Sherbrooke!</p>
-
-        <p>Les Condominiums W vous proposent des designs sur mesure et une valeur ajout&eacute;e assur&eacute;e. Sans
-            contredit, votre meilleur investissement se trouve ici!</p>
-
+        <p>Offrez-vous un condo de prestige sur un site exceptionnel offrant une vue spectaculaire unique à Sherbrooke!</p>
+        <p>Les Condominiums W vous proposent des designs sur mesure et une valeur ajoutée assurée. Sans contredit, votre meilleur investissement se trouve ici!</p>
         <p>Vous obtiendrez:</p>
         <ul class="indent underline">
-            <li>Design unique et personnalis&eacute;</li>
+            <li>Design unique et personnalisé</li>
             <li>Ascenseur</li>
-            <li>Stationnements int&eacute;rieurs disponibles</li>
-            <li>Fenestration abondante et balcons surdimensionn&eacute;s</li>
+            <li>Stationnements intérieurs disponibles</li>
+            <li>Fenestration abondante et balcons surdimensionnés</li>
             <li>Vue imprenable sur la ville</li>
             <li>Plafonds 9 et 10 pieds</li>
-            <li>Finition supérieure et qualit&eacute; de vie unique</li>
+            <li>Finition supérieure et qualité de vie unique</li>
             <li>Et de nombreux autres avantages...</li>
         </ul>
     </div>
@@ -161,16 +151,11 @@
     <div class="large-6 columns">
         <h3>PRENEZ RENDEZ-VOUZ</h3>
         M. GIL POULIN <b>PROMOTEUR</b> <span class="underline"><a href="tel:+18195720880">(819) 572-0880</a></span>
-        <br><b>VENTE ET D&Eacute;VELOPPEMENT</b> <span class="underline"><a href="tel:+18195720880">(819)
+        <br><b>VENTE ET DÉVELOPPEMENT</b> <span class="underline"><a href="tel:+18195720880">(819)
                 572-0880</a></span></p>
-        <p>Vous verrez les plans, les aménagements proposés de nos différentes unités, vous obtiendrez tous les détails
-            concernant les inclusions et les prix de vente ainsi que nos promotions spéciales</p>
-
+        <p>Vous verrez les plans, les aménagements proposés de nos différentes unités, vous obtiendrez tous les détails concernant les inclusions et les prix de vente ainsi que nos promotions spéciales</p>
         <p>Vous pourrez concrètement réserver votre condo ou votre penthouse</p>
-
-        <p>Nous offrirons à notre clientèle privilège nos unités de condos et penthouses à des conditions uniques et
-            très avantageuses. Faites vite!</p>
-
+        <p>Nous offrirons à notre clientèle privilège nos unités de condos et penthouses à des conditions uniques et très avantageuses. Faites vite!</p>
         <p>Vous êtes invités à venir nous rencontrer en prenant rendez-vous, communiquez avec Gil Poulin promoteur au <a
                 href="tel:+18195720880">(819) 572-0880</a> ou par courriel au: ventes@condosvv.com</p>
 

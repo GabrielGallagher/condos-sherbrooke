@@ -19,7 +19,7 @@
         <h3>Promoteurs</h3>
 
         <p>
-            L'expertise et la r&eacute;putation des promoteurs, messieurs Jean Audet (<a
+            L'expertise et la r&eacute;putation des promoteurs, messieurs Jean Audet (<a style="text-decoration: underline;"
                 href="http://www.timeshotel.ca/grandsherbrooke/fr/index.htm" rel="external">H&ocirc;tels Times</a> et
             Estpace Immobilier) et
             Gilles Poulin (Promoteur immobilier reconnu à Sherbrooke),
@@ -37,45 +37,28 @@
 
         <blockquote>
             <p><b>W condominiums. Vue et vertige</b></p>
-
-            C est avec la fierté qu' aujourd'hui nous amorçons la deuxième phase des Condos W
-
-            C'est avec aussi grand bonheur que nous constatons la réponse aussi positive des acheteurs de condominium
-            pour la beauté, l'excellence et la qualité de vie urbaine exceptionnelle de notre projet.
-
-            Dirigé et conçu par deux passionnés de l immobilier que nous sommes et en collaboration étroite avec m
-            sylvain Pomerleau architecte nous sommes particulièrement fier de contribuer au développement de sherbrooke
-            de façon aussi significative et durable
-
-            il va de soi que notre clientèle apprécie pleinement la possibilité de réaliser un projet de vie urbaine
-            totalement personnalisé et unique tout comme eux
-
-            avec la réalisation de la deuxième phase notre parc privé , son pavillon d'été et sa piscine verront le jour
-
-            W condominiums est particulièrement articulé sur un principe de densité contrôlee par phase pour assurer la
-            quiétude et la qualité de vie de ses propriétaires
-
+            C est avec la fierté qu' aujourd'hui nous amorçons la deuxième phase des Condos W C'est avec aussi grand
+            bonheur que nous constatons la réponse aussi positive des acheteurs de condominium pour la beauté,
+            l'excellence et la qualité de vie urbaine exceptionnelle de notre projet. Dirigé et conçu par deux
+            passionnés de l immobilier que nous sommes et en collaboration étroite avec m sylvain Pomerleau architecte
+            nous sommes particulièrement fier de contribuer au développement de sherbrooke de façon aussi significative
+            et durable il va de soi que notre clientèle apprécie pleinement la possibilité de réaliser un projet de vie
+            urbaine totalement personnalisé et unique tout comme eux avec la réalisation de la deuxième phase notre parc
+            privé , son pavillon d'été et sa piscine verront le jour W condominiums est particulièrement articulé sur un
+            principe de densité contrôlee par phase pour assurer la quiétude et la qualité de vie de ses propriétaires
             Avec un architecture moderne et adapté à l avenir, nous maintenons notre fenestration abondante , nos
             balcons bord de mer surdimensionnés au premier plan de la qualité de vie qu impose la localisation unique et
-            plus qu avantageuse du W
-
-            d'autant plus ,nous sommes soucieux d offrir une qualité supérieur en conception et réalisation , nous
-            concevons des condominiums avec un souci d'excellence hors du commun et sommes convaincus que la valeur
-            ajoutée de l unicité de votre condominiums saura garantir votre investissement Et ce en créant de toutes
-            pièces de petit chef-d'œuvre à chaque jour et pour chaque projet
-
-            En achetant un condo vue et vertiges, non seulement la qualité, la sécurité et le confort seront au
-            rendez-vous mais aucune autre vue globale de la ville et de la région entière aussi spectaculaires ne vous
-            seront proposées
-
-            Parmi les condominiums qui vous sont proposés en disponibilité actuelle ou pour une livraison au cours de
-            l'année 2015 nous offrons un éventail aussi vaste que possible qui saura certainement vous plaire.
-
-            si votre projet personnel autant pour sa taille ou son budget ne serait pas en disponibilité actuel lement
-            nous vous invitons à nous préciser vos besoins afin de les intégrer à notre dernière phase
-
-            Merci de votre visite et bienvenue au w. Condominium vue et vertige
-
+            plus qu avantageuse du W d'autant plus ,nous sommes soucieux d offrir une qualité supérieur en conception et
+            réalisation , nous concevons des condominiums avec un souci d'excellence hors du commun et sommes convaincus
+            que la valeur ajoutée de l unicité de votre condominiums saura garantir votre investissement Et ce en créant
+            de toutes pièces de petit chef-d'œuvre à chaque jour et pour chaque projet En achetant un condo vue et
+            vertiges, non seulement la qualité, la sécurité et le confort seront au rendez-vous mais aucune autre vue
+            globale de la ville et de la région entière aussi spectaculaires ne vous seront proposées Parmi les
+            condominiums qui vous sont proposés en disponibilité actuelle ou pour une livraison au cours de l'année 2015
+            nous offrons un éventail aussi vaste que possible qui saura certainement vous plaire. si votre projet
+            personnel autant pour sa taille ou son budget ne serait pas en disponibilité actuel lement nous vous
+            invitons à nous préciser vos besoins afin de les intégrer à notre dernière phase Merci de votre visite et
+            bienvenue au w. Condominium vue et vertige.
             <cite>Gil Poulin & Jean Audet. Promoteurs</cite>
         </blockquote>
     </div>

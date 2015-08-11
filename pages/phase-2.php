@@ -48,5 +48,3 @@
     <h2>Profiter de la Saison Estival gr&acirc;ce au magnifique pavillon d'&eacute;t&eacute;</h2>
     <img src="../assets/images/etages/pavillon-et-piscine.jpg" alt="pavillon d'&eacute;t&eacute;"/>
 </div>
-
-Soyez parmi les 1ers acheteurs à obtenir le plus grand choix aux meilleurs prix. Appellez 819 572-0880

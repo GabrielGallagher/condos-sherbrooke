@@ -12,10 +12,10 @@
         <h3>Contact</h3>
 
         <p><strong>Gil Poulin</strong> <br/>
-            T&eacute;l&eacute;phone : 819 572-0880<br>
-            <a href="mailto:gil@condosw.com">gil@condosw.com</a><br></p>
+            T&eacute;l&eacute;phone: <a href="tel:+18195720880">(819) 572-0880</a><br>
+            <a href="mailto:gil@condosw.com">gil@condosvv.com</a><br></p>
         <strong>Ventes<br/></strong>
-        T&eacute;l&eacute;phone : 819-993-5208 <br/></p>
+        T&eacute;l&eacute;phone: <a href="tel:+18199935208">(819) 993-5208</a><br/></p>
         <h3>Promoteurs</h3>
 
         <p>

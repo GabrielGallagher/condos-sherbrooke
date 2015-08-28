@@ -23,7 +23,7 @@
 <section class="promotion">
     <div class="row">
         <div class="large-9 columns">
-            <h3 class="text-light">CONDOS À VENDRE AVEC VUE MAGNIFIQUE À SHERBROOKE. LES CONDOS W</h3>
+            <h3 class="text-light">CONDOS À VENDRE AVEC VUE MAGNIFIQUE SUR SHERBROOKE. LES CONDOS W</h3>
 
             <p><strong>Vous cherchez un condo raffiné, un design personnalisé, une vue exceptionnelle. Vous avez trouvé la bonne adresse!</strong></p>
         </div>
@@ -118,7 +118,7 @@
                       href="plan-condos"/>
                 <area alt="Phase 2" data-tooltip="Phase 2" data-status="phase-2" shape="poly"
                       coords="418,206,418,418,614,417,615,207,437,206" href="phase-2"/>
-                <area alt="Parc privée, piscine et pavillon d’été" data-tooltip="Parc privée, piscine et pavillon d’été"
+                <area alt="Parc privée, piscine et pavillon d’été" data-tooltip="Parc privé, piscine et pavillon d’été"
                       data-status="pavillion-dete"
                       shape="poly" coords="358,465,574,465,575,548,357,548"
                       href="../assets/images/etages/pavillon-et-piscine.jpg" rel="prettyPhoto[image_map]"/>
@@ -148,8 +148,7 @@
     <div class="large-6 columns">
         <h3>PRENEZ RENDEZ-VOUS</h3>
         M. GIL POULIN <b>PROMOTEUR</b> <span class="underline"><a href="tel:+18195720880">(819) 572-0880</a></span>
-        <br><b>VENTES ET DÉVELOPPEMENT</b> <span class="underline"><a href="tel:+18195720880">(819)
-                572-0880</a></span></p>
+        <br><b>VENTES ET DÉVELOPPEMENT</b> <span class="underline"><a href="tel:+18199935208">(819) 993-5208</a></span></p>
         <p>Vous verrez les plans, les aménagements proposés de nos différentes unités, vous obtiendrez tous les détails concernant les inclusions et les prix de vente ainsi que nos promotions spéciales</p>
         <p>Vous pourrez concrètement réserver votre condo ou votre penthouse</p>
         <p>Nous offrirons à notre clientèle privilège nos unités de condos et penthouses à des conditions uniques et très avantageuses. Faites vite!</p>

@@ -21,7 +21,7 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 {
 
 	// Smart variable
-    $to       = "gilp@videotron.ca";
+    $to       = "ventes@condosvv.com";
     $subject    = "Condos VV | Demande d'information";
     $comments 	= $_POST['question'];
     $nom 		= $_POST['nom'];
@@ -214,7 +214,7 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
     <script>
         $(document).foundation();
     </script>
-    
+
 
 </body>
 </html>

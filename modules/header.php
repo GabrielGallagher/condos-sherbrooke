@@ -9,6 +9,9 @@
         <h4 class="header-hero-lead">CONDOS 3 1/2, 4 1/2, 5 1/2, STUDIOS, LOFTS & PENTHOUSES, AVEC PAVILLION D’ÉTÉ, PARC PRIVÉ ET PISCINE</h4>
         <br/>
         <h4 class="header-hero-lead">SÉCURITÉ, ASCENSEUR… GARAGE INTERIÉUR DISPONIBLE</h4>
+        <div class="header-cta">
+            <a href="//fast.wistia.net/embed/iframe/mlzeqiglb8?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640] header-hero-button">Lire la vidéo</a>
+            <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+        </div>
     </div>
-
 </div>

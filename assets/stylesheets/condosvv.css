@@ -94,6 +94,42 @@ span.w{
 	margin-bottom: 0;
 }
 
+div.header-cta {
+    margin-top: 20px;
+}
+
+div.header-cta .header-hero-button {
+    -moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	border-radius: 22px;
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 15px;
+	line-height: 2.2em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #615252;
+	display: inline-block;
+}
+
+div.header-cta .header-hero-button::before {
+	content: "\25BA";
+    font-size: 1.3em;
+    display: inline;
+    position: relative;
+    left: -10px;
+    top: 2px;
+}
+
+div.header-cta .header-hero-button:hover {
+    color: #cd262c;
+    -webkit-transition: all 0.2s ease-in-out
+    -moz-transition: all 0.2s ease-in-out
+    -ms-transition: all 0.2s ease-in-out
+    -o-transition: all 0.2s ease-in-out
+    transition: all 0.2s ease-in-out
+}
+
 /* #Page Styles
 ================================================== */
 .fullwidth {

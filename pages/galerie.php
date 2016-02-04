@@ -1,7 +1,7 @@
 <div class="row">
     <div class="large-12 columns">
         <h1>Notre galerie</h1>
-        <div class="photoset-grid" data-layout="333333332333" style="visibility: hidden;">
+        <div class="photoset-grid" data-layout="333333332332" style="visibility: hidden;">
             <img src="<? echo BASE_URL; ?>assets/images/galerie/th_1402_1.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/1402_1.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/galerie/aaa.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/b-aaa.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/galerie/bbb.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/b-bbb.jpg"/>
@@ -29,14 +29,13 @@
             <img src="<? echo BASE_URL; ?>assets/images/home/recents/15_small.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/home/recents/15.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/home/recents/04_small.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/home/recents/04.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/galerie/05.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/05.jpg"/>
-            <img src="<? echo BASE_URL; ?>assets/images/home/recents/13_small.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/home/recents/13.jpg"/>
+            <img src="<? echo BASE_URL; ?>assets/images/galerie/th-12.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/12.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/home/recents/01_small.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/home/recents/01.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/home/recents/02_small.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/home/recents/02.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/galerie/th-08.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/08.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/galerie/th-09.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/09.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/galerie/th-10.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/10.jpg"/>
             <img src="<? echo BASE_URL; ?>assets/images/galerie/th-11.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/11.jpg"/>
-            <img src="<? echo BASE_URL; ?>assets/images/galerie/th-12.jpg" alt="Les Condos VV" data-highres="<? echo BASE_URL; ?>assets/images/galerie/12.jpg"/>
         </div>
     </div>
 </div>

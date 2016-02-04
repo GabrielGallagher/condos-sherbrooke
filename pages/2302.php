@@ -14,7 +14,14 @@
         </div>
         <div class="row">
             <div id="plan-bottom">
-                <img src="../assets/images/plan/2302.jpg" alt="Etage 1" width="930" height="601" class="etages" border="0" />
+                <img src="../assets/images/plan/2302.jpg" alt="Etage 3" width="930" height="601" class="etages" border="0" />
+                <img src="../assets/images/plan/2302B.jpg" alt="Etage 3" width="930" height="601" class="etages" border="0" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="photoset-grid" data-layout="2" style="visibility: hidden;">
+                <img src="../assets/images/condoGalerie/fullRes/gallery_2302_1.jpg" alt="Condo 1101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2302_1.jpg"/>
+                <img src="../assets/images/condoGalerie/fullRes/gallery_2302_2.jpg" alt="Condo 1101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2302_2.jpg"/>
             </div>
         </div>
     </div>

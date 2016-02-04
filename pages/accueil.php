@@ -1,10 +1,21 @@
 <?php
 // File   : pages/accueil.php
-// Author : Reydel Leon
-// Date   : April 2015
+// Author : Gabriel Gallagher
+// Date   : January 2016
 
 ?>
 <link href="../assets/stylesheets/condosvv.css" rel="stylesheet" type="text/css"/>
+<section class="hero clearfix">
+    <div class="row intro">
+        <div class="large-12 columns">
+            <div class="row">
+                <div class="large-12 text-center columns no-space">
+                    <h1><strong>ATTENTION !!! PORTES OUVERTES CE DIMANCHE 7 FÉVRIER DE 14h À 16h ÉDIFICE 2000 (phase 2)</strong></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="row">
         <div class="columns large-12">
@@ -42,10 +53,10 @@
         <div class="large-12 columns">
             <div class="row">
                 <div class="large-12 text-center columns no-space">
-                    <h1><strong>ATTENTION !!!!! PROMOTION DU 1ER AU 30 OCTOBRE 2015</strong></h1>
+                    <h1><strong>ATTENTION À NOTRE PROCHAIN ACHETEUR !!!!! OCCASION UNIQUE. VOUS SEREZ PLUS QUE COMBLÉ.</strong></h1>
                 </div>
                 <div class="large-12 text-center columns no-space">
-                    <!--                    <h2 class="subheader">À NOTRE PROCHAIN ACHETEUR</h2>-->
+                <h2 class="subheader">PLUS DE 10 CONDOS ET LOFTS DISPONIBLES MAINTENANT</h2>
                 </div>
                 <div class="large-10 columns text-center large-offset-1">
                     <hr/>
@@ -53,12 +64,11 @@
                 <div class="large-12 text-center columns no-space">
                     <h4>SOYEZ FUTÉ, INTELLIGENT, BRILLANT, HORS DE L'ORDINAIRE, ÉLÉGANT, RAFFINÉ !!!</h4>
                     <h4>ACHETEZ UN CONDO W ET PROFITEZ DE NOTRE SUPER OFFRE...</h4>
-                    <h4><span style="font-size: 0.7em">Jusqu'à</span> <span style="font-size: 1.3em; font-weight: bold">5,000$</span>
-                        DE RABAIS + <span style="font-size: 1.3em; font-weight: bold">5,000$</span> meubles Nor-Sud</h4>
-                    <h4>À L'ACHAT OU RÉSERVATION D'UN CONDO AVANT LE 20 SEPTEMBRE 2015</h4>
+                    <h4><span style="font-size: 0.7em">Jusqu'à</span> <span style="font-size: 1.3em; font-weight: bold">30,000$</span> de rabais OU votre condo tout meublé*</h4>
                     <h4>SOYEZ FUTÉ</h4>
                     <h4>CONDOS W... L'ADDRESSE PRESTIGE À SHERBROOKE</h4>
-                    <img src="../assets/images/home/norsud.png" alt="Meubles Nord-Sud" style="margin: auto">
+                    <h5>* nous voir pour conditions</h5>
+                    <img src="../assets/images/logo.png" alt="Meubles Nord-Sud" style="margin: auto">
                 </div>
                 <div class="large-4 large-offset-8 columns">
                     <h3>
@@ -95,11 +105,28 @@
     <div class="row">
         <div class="large-6 columns">
             <h3>LIVRAISON IMM&EacuteDIATE</h3>
+            <h4>Niveau 4</h4>
             <ul class="styless underline">
-                <li><a href="1101">Suite 1101 - Condo phase 1- &eacute;tage 1</a></li>
-                <li><a href="1204">Suite 1204 - Condo phase 1- &eacute;tage 2</a></li>
-                <li><a href="1401">Suite 1401 - Condo phase 1- &eacute;tage 4</a></li>
-                <li><a href="1403">Suite 1403 - Condo phase 1- &eacute;tage 4</a></li>
+                <li><a href="1401">Suite 1401 - Condo phase 1- &eacute;tage 4 niveau penthouse</a></li>
+                <li><a href="1403">Suite 1403 - Condo phase 1- &eacute;tage 4 niveau penthouse</a></li>
+                <li><a href="2402">Suite 2402 - Condo phase 2- &eacute;tage 4 niveau penthouse</a></li>
+                <li><a href="2403">Suite 2403 - Loft phase 2- &eacute;tage 4 niveau penthouse</a></li>
+            </ul>
+            <h4>Niveau 3</h4>
+            <ul class="styless underline">
+                <li><a href="2302">Suite 2302 - Condo phase 2- &eacute;tage 3 niveau penthouse</a></li>
+                <li><a href="2304">Suite 2304 - Condo phase 2- &eacute;tage 3 niveau penthouse</a></li>
+                <li><a href="2305">Suite 2305 - Loft phase 2- &eacute;tage 3 niveau penthouse</a></li>
+            </ul>
+            <h4>Niveau 2</h4>
+            <ul class="styless underline">
+                <li><a href="2201">Suite 2201 - Condo phase 2- &eacute;tage 2</a></li>
+                <li><a href="2204">Suite 2204 - Condo phase 2- &eacute;tage 2</a></li>
+                <li><a href="1204">Suite 1204 - Studio phase 1- &eacute;tage 2</a></li>
+            </ul>
+            <h4>Niveau 1</h4>
+            <ul class="styless underline">
+                <li><a href="2101">Suite 2101 - Condo phase 1- &eacute;tage 1</a></li>
             </ul>
         </div>
         <div class="large-6 columns">

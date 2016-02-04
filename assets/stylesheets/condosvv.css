@@ -45,8 +45,8 @@ span.title{
 }
 
 span.w{
-	font-family:'Times New Roman', Times, serif; 
-	font-size:52px; 
+	font-family:'Times New Roman', Times, serif;
+	font-size:52px;
 	font-weight:bold
 }
 .gris h3{
@@ -76,7 +76,7 @@ span.w{
 }
 
 #nav li {
-	float: left; 
+	float: left;
 	margin-right: 4px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -177,7 +177,7 @@ body {
 }
 
 #gallerie img, #gallerie-page img {
-	float: left; 
+	float: left;
 	border-style: solid;
 	border-width: 1px 1px 1px 0;
 	border-color: #fff;
@@ -220,7 +220,7 @@ body {
 	padding-top: 12px;
 	margin-right: 1px;
 	border-right: 2px solid #fff;
-	border-left: 2px solid #fff; 
+	border-left: 2px solid #fff;
 }
 
 .prix td {
@@ -301,7 +301,7 @@ body {
 #plan-right{
 	float:left;
 	width:610px;
-	
+
 }
 
 .header-hero {
@@ -385,10 +385,10 @@ footer {
 }
 /* #Media Queries
 ================================================== */
-	
+
 	/* Because all the cool kids doing it */
 	section img {max-width:100%;}
-	
+
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 977px) {}
 
@@ -403,7 +403,7 @@ footer {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {}
-	
+
 
 /* #Misc
 ================================================== */
@@ -423,7 +423,7 @@ footer {
 		Just create a "fonts" folder at the root,
 		copy your FontName into code below and remove
 		comment brackets */
-		
+
 /*	@font-face {
 	    font-family: 'FontName';
 	    src: url('../fonts/FontName.eot');

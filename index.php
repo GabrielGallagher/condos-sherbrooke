@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // Same as error_reporting(E_ALL);
 ini_set('error_reporting', E_ALL);
 
@@ -21,7 +21,7 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 {
 
 	// Smart variable
-    $to       = "ventes@condosvv.com";
+    $to       = "bertrand@condosvv.com";
     $subject    = "Condos VV | Demande d'information";
     $comments 	= $_POST['question'];
     $nom 		= $_POST['nom'];
@@ -61,18 +61,18 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 <!--[if IE 8 ]><html class="ie ie8" lang="fr"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="fr"> <!--<![endif]-->
 <head>
-	
+
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8" />
-	<title><? if($p != 'accueil') echo $page_title . ' | '; ?>Condos &agrave; vendre &agrave; Sherbrooke avec vue magnifique, Les condos W</title> 
+	<title><? if($p != 'accueil') echo $page_title . ' | '; ?>Condos &agrave; vendre &agrave; Sherbrooke avec vue magnifique, Les condos W</title>
 
 	<!-- Mobile Specific Metas
     ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-	
+
 	<!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -92,7 +92,7 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 	<link rel="apple-touch-icon" href="<? echo BASE_URL; ?>assets/images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="<? echo BASE_URL; ?>assets/images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="<? echo BASE_URL; ?>assets/images/apple-touch-icon-114x114.png">
-	
+
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -112,9 +112,9 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 	</script>
 </head>
 
- 
+
 <body <?php echo ($p == 'accueil' ? 'class="home"' : 'class="type"'); ?>>
- 
+
 	<!-- Header
 	================================================== -->
 	<div class="masthead">
@@ -133,10 +133,10 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 			</div>
 		</div>
 	</div>
-	
+
 	<?php
-	switch($p){ 
-		case 'accueil' : 
+	switch($p){
+		case 'accueil' :
 			$load_header = true;
 			break;
 		case 'prix' :
@@ -148,33 +148,33 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 		case 'galerie' :
 			$load_header = false;
 			break;
-		default : 
+		default :
 			$load_header = false;
 	}
-	
+
 	if($load_header){
 		include("modules/header.php");
 	} else {
 		include("modules/header-simple.php");
 	}
-	
-	?>
-	
 
-	
+	?>
+
+
+
 	<!-- Primary Page Layout
 	================================================== -->
-	
+
 	<?php
 		if (file_exists('pages/'.$p.'.php')) {
 			@include ('pages/'.$p.'.php');
-		}	
+		}
 		elseif (!file_exists('pages/'.$p.'.php')) {
 			@include ("modules/header.php");
 			@include ('pages/404.php');
 		}
-	?> 
-	
+	?>
+
 	<!-- Footer
 	================================================== -->
 	<footer>
@@ -190,7 +190,7 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
 					<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5113b8386c8e0306"></script>
 				<!-- AddThis Button END -->
-				
+
 			</div>
 			<div class="large-4 columns" id="standish">
 				Accr&eacute;dit&eacute; par <a href="http://www.condossherbrooke.ca/" rel="external">Condos Sherbrooke</a>
@@ -205,7 +205,7 @@ if(isset($_POST['nom']) && $_POST['nom'] != "" && $_POST['not-spam'] == "on")
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="<? echo BASE_URL; ?>assets/javascripts/jquery.prettyPhoto.js"></script>
 	<script src="<? echo BASE_URL; ?>assets/javascripts/global.js"></script>
-    
+
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.imagemapster.min.js"></script>
     <script src="<? echo BASE_URL; ?>assets/javascripts/jquery.metadata.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>

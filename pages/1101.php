@@ -8,7 +8,7 @@
         </div>
         <div id="plan" class="row">
           <div class="large-9 columns text-left">
-            <h3>disponible</h3>
+            <h3>vendu</h3>
           </div>
           <div class="large-3 columns text-right">
             <h3>etage - <a class="stage" href="etage-1">1</a> <a class="stage" href="etage-2">2</a> <a class="stage" href="etage-3">3</a> <a class="stage" href="etage-4">4</a></h3>

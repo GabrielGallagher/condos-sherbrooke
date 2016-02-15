@@ -23,8 +23,7 @@
                 <map name="etages" id="etages">
                     <area alt="2401" class="vendu" data-tooltip="2401" data-status="vendu" href="2401" shape="poly" coords="384,221,384,329,369,329,369,500,444,500,445,543,539,544,539,356,544,356,543,322,541,321,541,266,574,266,574,247,545,246,542,219" />
                     <area alt="2402" class="disponible" data-tooltip="2402" data-status="2402" href="2402" shape="poly" coords="610,319,610,544,787,545,787,440,770,440,768,320" />
-                    <area alt="2403" class="disponible" data-tooltip="2403" data-status="2403" href="2403" shape="poly" coords="648,160,648,190,621,190,621,265,750,267,750,310,771,309,808,269,808,177,796,176,796,179,697,178,696,160" />
-                    <area alt="2404" class="disponible" data-tooltip="2404" data-tooltip="2401" data-status="2404" href="2404" shape="poly" coords="620,38,620,97,547,97,548,175,566,176,566,151,704,151,705,171,794,171,793,53,711,51,710,38" />
+                    <area alt="2403" class="disponible" data-tooltip="2403" data-tooltip="2403" data-status="2404" href="2403" shape="poly" coords="620,38,620,97,547,97,548,175,566,176,566,151,704,151,705,171,794,171,793,53,711,51,710,38" />
                 </map>
             </div>
         </div>

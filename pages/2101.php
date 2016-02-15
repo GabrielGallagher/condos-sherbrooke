@@ -16,5 +16,16 @@
                 <img src="../assets/images/plan/2101.jpg" alt="Etage 1" width="930" height="601" class="etages" border="0" />
             </div>
         </div>
+        <div class="row">
+            <div class="photoset-grid" data-layout="322" style="visibility: hidden;">
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2101_1.jpg" alt="Condo 2101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2101_1.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2101_2.jpg" alt="Condo 2101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2101_2.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2101_3.jpg" alt="Condo 2101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2101_3.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2101_4.jpg" alt="Condo 2101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2101_4.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2101_5.jpg" alt="Condo 2101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2101_5.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2101_6.jpg" alt="Condo 2101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2101_6.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2101_7.jpg" alt="Condo 2101" data-highres="../assets/images/condoGalerie/fullRes/gallery_2101_7.JPG"/>
+            </div>
+        </div>
     </div>
 </div>

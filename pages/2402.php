@@ -16,5 +16,14 @@
                 <img src="../assets/images/plan/2402.jpg" alt="Etage 1" width="930" height="601" class="etages" border="0" />
             </div>
         </div>
+        <div class="row">
+            <div class="photoset-grid" data-layout="23" style="visibility: hidden;">
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2402_1.jpg" alt="Condo 1403" data-highres="../assets/images/condoGalerie/fullRes/gallery_2402_1.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2402_2.jpg" alt="Condo 1403" data-highres="../assets/images/condoGalerie/fullRes/gallery_2402_2.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2402_3.jpg" alt="Condo 1403" data-highres="../assets/images/condoGalerie/fullRes/gallery_2402_3.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2402_4.jpg" alt="Condo 1403" data-highres="../assets/images/condoGalerie/fullRes/gallery_2402_4.JPG"/>
+                <img src="../assets/images/condoGalerie/thumbs/gallery_2402_5.jpg" alt="Condo 1403" data-highres="../assets/images/condoGalerie/fullRes/gallery_2402_5.JPG"/>
+            </div>
+        </div>
     </div>
 </div>
